@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thailand Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0.5)), url('https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/66cdb239f72e111ceb1fd754/HDP1_Web.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .banner-text .h2 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .grey-bg {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .content-section {
+            display: none;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        .filter-btn {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            color: #333;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+                    alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h">Thailand</h1>
+                    <p class="banner-text">
+                        <span class="h2">T</span>hailand is a vibrant tapestry of golden temples, turquoise waters, and
+                        spicy street food. From the bustling markets of Bangkok to the serene beaches of Phuket and
+                        Krabi, every corner pulses with life. Explore ancient ruins in Ayutthaya, dance under the stars
+                        at a Full Moon Party, or find peace in Chiang Mai’s misty mountains. Whether it’s savoring pad
+                        thai from a roadside stall or marveling at the Grand Palace, Thailand offers a sensory adventure
+                        that’s both chaotic and captivating. Pack for paradise.
+                    </p>
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=Thailand&type=1&category=&month="
+                        class="more">BOOK NOW</a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/66cdb239f72e111ceb1fd754/HDP1_Web.png"
+                        class="d-block w-100 bn-img" height="300px" alt="Phuket Beach" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Thailand Travel Guide</h2>
+            <div class="row grey-bg">
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-thailand">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65ae16ca743d7d226548b563/HDP1_Web.jpg"
+                                alt="Thailand Overview" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-grand-palace">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/66cdb239f72e111ceb1fd754/HDP1_Web.png"
+                                alt="Grand Palace" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-phi-phi">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/664ad7fe8c7434194457d559/HDP1_Web.png"
+                                alt="Phi Phi Islands" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-chiang-mai">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65fd1eec44770b1b894999e1/HDP1_Web.png"
+                                alt="Chiang Mai Night Bazaar" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-ayutthaya">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65fd223144770b1b89499a20/HDP4_Web.png"
+                                alt="Ayutthaya Historical Park" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-patong">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/66853427a7c3bc1942ebb5ec/HDP1_Web.png"
+                                alt="Patong Beach" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-koh-samui">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65ae16ca743d7d226548b563/HDP2_Web.jpg"
+                                alt="Koh Samui" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-floating-market">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/6875e694b159dc54ada2898f/HDP2_Web.jpg"
+                                alt="Damnoen Saduak Floating Market" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-railay">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/66962a116f18f67e1241bb4a/HDP2_Web.png"
+                                alt="Railay Beach" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-doi-suthep">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65fd1eec44770b1b894999e1/HDP4_Web.png"
+                                alt="Wat Phra That Doi Suthep" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-full-moon">
+                            <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/664ad7fe8c7434194457d559/HDP2_Web.png"
+                                alt="Full Moon Party" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="col-md-8 pb-3">
+                    <div id="content-thailand" class="content-section active">
+                        <h2 class="section-title">Welcome to Thailand</h2>
+                        <p>It’s a sensory whirlwind—golden temples glinting in the sun, street vendors tossing noodles
+                            in fiery woks, and beaches so pristine they feel like a fever dream. Bangkok’s chaos hits
+                            you first: tuk-tuks zipping through neon-lit streets, the Grand Palace sparkling like a
+                            jewel, and markets where you can buy anything from silk to spicy som tam. Venture south to
+                            Phuket and Krabi for turquoise waters and limestone cliffs, or north to Chiang Mai for misty
+                            mountains and ancient temples. Thailand’s got it all—bustling cities, tranquil islands, and
+                            food that’ll ruin you for life. Embrace the heat, the crowds, and the magic. Thailand
+                            doesn’t wait for you—it sweeps you away.</p>
+                    </div>
+                    <div id="content-grand-palace" class="content-section">
+                        <h2 class="section-title">Grand Palace</h2>
+                        <p>Bangkok’s Grand Palace is a dazzling spectacle of Thai architecture, dripping in gold and
+                            intricate details. Home to the revered Emerald Buddha, it’s a sacred and cultural epicenter.
+                            Wander through ornate courtyards, marvel at the glittering spires, and soak in the history
+                            of Thai royalty. It’s crowded and hot, so go early, dress modestly, and brace for a sensory
+                            overload that’s worth every second.</p>
+                    </div>
+                    <div id="content-phi-phi" class="content-section">
+                        <h2 class="section-title">Phi Phi Islands</h2>
+                        <p>Think turquoise waters, limestone cliffs, and beaches that look photoshopped. The Phi Phi
+                            Islands, especially Maya Bay, are Thailand’s postcard paradise. Snorkel in crystal lagoons,
+                            kayak through hidden coves, or just lounge on powdery sand. It’s touristy, sure, but the
+                            scenery is unreal. Book a boat tour early to beat the crowds and catch the sunrise glow.</p>
+                    </div>
+                    <div id="content-chiang-mai" class="content-section">
+                        <h2 class="section-title">Chiang Mai Night Bazaar</h2>
+                        <p>Chiang Mai’s Night Bazaar is a vibrant maze of stalls selling everything from silk scarves to
+                            spicy som tam. It’s less about shopping and more about the vibe—street musicians, sizzling
+                            food carts, and locals haggling with a smile. Open every evening, it’s perfect for soaking
+                            up Northern Thailand’s laid-back charm. Pro tip: Try the mango sticky rice.</p>
+                    </div>
+                    <div id="content-ayutthaya" class="content-section">
+                        <h2 class="section-title">Ayutthaya Historical Park</h2>
+                        <p>Ayutthaya is Thailand’s time machine. This UNESCO site is packed with ancient temples and
+                            crumbling ruins from a 14th-century kingdom. Wat Mahathat’s iconic Buddha head tangled in
+                            tree roots is a must-see. Rent a bike to explore the sprawling grounds—it’s peaceful yet
+                            haunting. Day trips from Bangkok are easy, but stay for sunset if you can.</p>
+                    </div>
+                    <div id="content-patong" class="content-section">
+                        <h2 class="section-title">Patong Beach</h2>
+                        <p>Phuket’s Patong Beach is where Thailand parties. By day, it’s sunbathing and jet-skiing; by
+                            night, Bangla Road’s neon lights and bars take over. It’s loud, chaotic, and not for
+                            everyone—but if you want energy, this is it. For quieter moments, grab a cocktail at a
+                            beachfront bar and watch the sunset. Balance is key here.</p>
+                    </div>
+                    <div id="content-koh-samui" class="content-section">
+                        <h2 class="section-title">Koh Samui</h2>
+                        <p>Koh Samui blends luxury with laid-back island vibes. Chaweng Beach buzzes with nightlife,
+                            while Lamai offers quieter shores. Visit the Big Buddha statue or hike to Na Muang Waterfall
+                            for a dose of nature. Spas and resorts here are top-notch, but you can still find
+                            budget-friendly bungalows. It’s Thailand’s sweet spot for relaxation and adventure.</p>
+                    </div>
+                    <div id="content-floating-market" class="content-section">
+                        <h2 class="section-title">Damnoen Saduak Floating Market</h2>
+                        <p>Paddle through Damnoen Saduak’s canals, where vendors sell mangoes, noodles, and souvenirs
+                            from boats. It’s colorful, chaotic, and quintessentially Thai. Sure, it’s touristy, but the
+                            vibe—grilled skewers sizzling, vendors calling out—is infectious. Go early to avoid the
+                            crowds and haggle for a coconut or two. Bring your camera; this is Instagram gold.</p>
+                    </div>
+                    <div id="content-railay" class="content-section">
+                        <h2 class="section-title">Railay Beach</h2>
+                        <p>Railay Beach in Krabi is a climbers’ paradise, with limestone cliffs begging to be scaled. No
+                            roads, just boats, so it feels like a hidden gem. Kayak through mangroves, sunbathe on Phra
+                            Nang Beach, or explore caves with stalactites. It’s chill yet adventurous, with sunsets
+                            that’ll leave you speechless. Perfect for escaping the mainland hustle.</p>
+                    </div>
+                    <div id="content-doi-suthep" class="content-section">
+                        <h2 class="section-title">Wat Phra That Doi Suthep</h2>
+                        <p>Perched on a mountain overlooking Chiang Mai, Wat Phra That Doi Suthep is a spiritual
+                            stunner. Climb the 300 steps (or take the funicular) to reach this golden temple, where
+                            monks chant and incense fills the air. The views of the city are epic, especially at sunset.
+                            It’s sacred, so dress respectfully and soak in the serene vibes.</p>
+                    </div>
+                    <div id="content-full-moon" class="content-section">
+                        <h2 class="section-title">Full Moon Party</h2>
+                        <p>Koh Phangan’s Full Moon Party is legendary—think neon paint, fire dancers, and buckets of
+                            booze on Haad Rin Beach. Thousands dance under the stars to thumping beats. It’s wild,
+                            messy, and unforgettable, but pace yourself—those buckets hit hard. If crowds aren’t your
+                            thing, nearby beaches offer quieter vibes with the same moonlight glow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Thailand Travel Packages</h2>
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-5n6d')">5N/6D</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-6n7d')">6N/7D</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-7n8d')">7N/8D</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-10n11d')">10N/11D</button>
+                </div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=thailand-escape&currency=INR">
+                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65ae16ca743d7d226548b563/HDP1_Web.jpg"
+                            class="card-img-top" alt="Thailand Escape Package">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Thailand Escape</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹33,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=thailand-escape&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=phuket-krabi&currency=INR">
+                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/664ad7fe8c7434194457d559/HDP1_Web.png"
+                            class="card-img-top" alt="Phuket & Krabi Package">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Phuket & Krabi</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹37,900/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=phuket-krabi&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=phuket-bangkok&currency=INR">
+                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65fd1eec44770b1b894999e1/HDP1_Web.png"
+                            class="card-img-top" alt="Phuket with Bangkok Package">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Phuket with Bangkok</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹38,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=phuket-bangkok&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=krabi-phuket&currency=INR">
+                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65fd223144770b1b89499a20/HDP4_Web.png"
+                            class="card-img-top" alt="Krabi & Phuket Package">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Krabi & Phuket</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹39,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=krabi-phuket&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=koh-samui-bangkok&currency=INR">
+                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/66853427a7c3bc1942ebb5ec/HDP1_Web.png"
+                            class="card-img-top" alt="Koh Samui with Bangkok Package">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Koh Samui with Bangkok</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹41,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=koh-samui-bangkok&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=krabi-phuket-bangkok&currency=INR">
+                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65ae16ca743d7d226548b563/HDP2_Web.jpg"
+                            class="card-img-top" alt="Krabi, Phuket & Bangkok Package">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Krabi, Phuket & Bangkok</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹57,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=krabi-phuket-bangkok&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=krabi-koh-samui&currency=INR">
+                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/6875e694b159dc54ada2898f/HDP2_Web.jpg"
+                            class="card-img-top" alt="Krabi & Koh Samui Package">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Krabi & Koh Samui</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹59,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=krabi-koh-samui&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-10n11d card shadow-sm border-0 h-100">
+                    <a
+                        href="https://www.zenithholidays.com/holiday/details?id=singapore-malaysia-thailand&currency=INR">
+                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/66962a116f18f67e1241bb4a/HDP2_Web.png"
+                            class="card-img-top" alt="Singapore, Malaysia & Thailand Package">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Singapore, Malaysia & Thailand</h5>
+                        <p class="card-text text-muted mb-1">10N/11D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹94,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=singapore-malaysia-thailand&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a
+                        href="https://www.zenithholidays.com/holiday/details?id=beautiful-krabi-phuket-bangkok&currency=INR">
+                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/66cdb239f72e111ceb1fd754/HDP1_Web.png"
+                            class="card-img-top" alt="Beautiful Krabi, Phuket & Bangkok Package">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Beautiful Krabi, Phuket & Bangkok</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹36,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=beautiful-krabi-phuket-bangkok&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2024 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>

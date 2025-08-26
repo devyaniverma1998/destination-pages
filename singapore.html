@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Singapore Destination</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <style>
+    .banner {
+      background: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0.5)), url('images/singapore/Singapore Fully Loaded.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .banner-h {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .banner-text {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .banner-text .h2 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .more {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffc107;
+      color: black;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+
+    .more:hover {
+      background-color: #e0a800;
+    }
+
+    .grey-bg {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .content-section {
+      display: none;
+    }
+
+    .content-section.active {
+      display: block;
+    }
+
+    .filter-btn {
+      background-color: #f8f9fa;
+      border: 1px solid #ddd;
+      color: #333;
+    }
+
+    .filter-btn.active,
+    .filter-btn:hover {
+      background-color: #007bff;
+      color: white;
+      border-color: #007bff;
+    }
+
+    .bn-img {
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .card-img-top {
+      cursor: pointer;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+          alt="Zenith Holidays Logo" style="height: 60px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+              <li><a class="dropdown-item" href="#">Vouchers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid py-5 banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="text-white banner-h">Singapore</h1>
+          <p class="banner-text">
+            <span class="h2">S</span>ingapore is a dazzling fusion of nature and modernity. Steel towers
+            reflect sky
+            gardens, and the air is rich with aromas of laksa, satay, and jasmine. Sip kopi in a hawker
+            center as
+            cultures blend seamlessly around you. Stroll Marina Bay, lose yourself in the colors of Little
+            India, and
+            find serenity in cloud forests above the city. No ordinary escape—just harmony, hustle, and
+            hidden gems. Pack
+            for discovery.
+          </p>
+          <a href="https://www.zenithholidays.com/holiday/search?searchby=Singapore&type=1&category=&month="
+            class="more">BOOK NOW</a>
+        </div>
+        <div class="col-md-6 mt-5 banner-img">
+          <img src="images/singapore/Singapore Fully Loaded.png" class="d-block w-100 bn-img" height="300px"
+            alt="Marina Bay Sands Skyline" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="destination-welcome" class="py-3">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">Singapore Travel Guide</h2>
+      <div class="row grey-bg">
+        <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-content="content-gardens">
+              <img src="images/singapore/Singapore Fully Loaded.png" alt="Gardens by the Bay" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-marina-bay">
+              <img src="images/singapore/Best of Singapore & Malaysia.png" alt="Marina Bay Sands" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-wings-of-time">
+              <img src="images/singapore/Singapore with Cruise.png" alt="Wings of Time" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-singapore-flyer">
+              <img src="images/singapore/Singapore, Malaysia & Thailand.png" alt="Singapore Flyer"
+                class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-skypark">
+              <img src="images/singapore/Twin Delights_ Singapore & Malaysia.png" alt="SkyPark Observation Deck"
+                class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-sentosa">
+              <img src="images/singapore/Uniquely Singapore.png" alt="Sentosa Island" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-universal">
+              <img src="images/singapore/Best of Singapore & Malaysia.png" alt="Universal Studios Singapore"
+                class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-artscience">
+              <img src="images/singapore/Singapore Fully Loaded.png" alt="ArtScience Museum" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-luge">
+              <img src="images/singapore/Singapore with Bintan Island.png" alt="Skyline Luge" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-aquarium">
+              <img src="images/singapore/Singapore with Cruise.png" alt="S.E.A. Aquarium" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-night-safari">
+              <img src="images/singapore/Singapore, Malaysia & Thailand.png" alt="Night Safari" class="d-block w-100">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="col-md-8 pb-3">
+          <div id="content-gardens" class="content-section active">
+            <h2 class="section-title">Gardens by the Bay</h2>
+            <p>Let’s be honest—you’ve seen the Supertrees on Instagram, but nothing prepares you for how
+              surreal they
+              are in person. These giant, futuristic tree sculptures light up at night in a psychedelic
+              show set to
+              music, and yeah, it’s as cool as it sounds. But there’s more: the Flower Dome is like
+              walking into a
+              climate-controlled Eden, with everything from olive trees to cacti thriving under glass. The
+              Cloud Forest?
+              Even wilder—a misty mountain covered in orchids and ferns, complete with a waterfall that’ll
+              make you
+              forget you’re in a city. Go late
+              afternoon—you get
+              daylight, sunset, and the night show in one visit.</p>
+          </div>
+          <div id="content-marina-bay" class="content-section">
+            <h2 class="section-title">Marina Bay Sands</h2>
+            <p>It’s the postcard shot of Singapore—that insane ship-like structure straddling three towers.
+              But Marina
+              Bay Sands isn’t just a hotel; it’s a whole vibe. The infinity pool? Legendary (though you’ll
+              need to be a
+              guest to dip). The shopping mall downstairs? Luxury overload, complete with a canal where
+              you can
+              literally boat through Prada and Louis Vuitton. The casino’s flashy, sure, but the real
+              magic happens at
+              night. Head up to the SkyPark for a cocktail with a view—the city skyline glittering below
+              is next-level.
+              And if you’re around during New Year’s or National Day, the fireworks from here are unreal.
+              Even if you
+              don’t stay, just wandering the complex feels like stepping into some ultra-rich future.</p>
+          </div>
+          <div id="content-wings-of-time" class="content-section">
+            <h2 class="section-title">Wings of Time Fireworks Symphony</h2>
+            <p>Sentosa’s after-dark secret weapon, Wings of Time is a laser, fire, and water show that’s way
+              more epic
+              than it has any right to be. The story’s simple (something about a magical bird and time
+              travel, but who
+              cares?), but the effects? Mind-blowing. Flames shoot into the air, water screens project
+              swirling images,
+              and lasers slice through the night sky—all set to dramatic music. It’s cheesy in the best
+              way, like a
+              theme park finale you can’t look away from. Kids lose their minds, adults secretly love it,
+              and the ocean
+              backdrop makes it feel bigger than just a staged show. Grab a seat early, though—the best
+              views go fast.
+            </p>
+          </div>
+          <div id="content-singapore-flyer" class="content-section">
+            <h2 class="section-title">Singapore Flyer</h2>
+            <p>It’s a giant Ferris wheel—how exciting could it be? Turns out, very. The Singapore Flyer
+              isn’t just about
+              height (though at 165 meters, the views are ridiculous); it’s about seeing the entire city
+              unfold like a
+              living map. On a clear day, you can spot Malaysia and Indonesia in the distance. Sunset
+              slots are
+              golden—literally—with the sky turning pink over Marina Bay. There’s even a fancy champagne
+              option if you
+              want to feel extra bougie while rotating slowly above the world. And unlike some observation
+              decks, you
+              get a full 30 minutes in the capsule, so no rush. It’s peaceful, almost meditative—unless
+              you’re scared of
+              heights, in which case… maybe skip it.</p>
+          </div>
+          <div id="content-skypark" class="content-section">
+            <h2 class="section-title">SkyPark Observation Deck</h2>
+            <p>Forget the pricey cocktails at Ce La Vi—the real steal is the SkyPark Observation Deck at
+              Marina Bay
+              Sands. Same insane views, way cheaper. You’re 57 floors up, with all of Singapore sprawled
+              beneath you:
+              the harbour, Gardens by the Bay, even Sentosa on a clear day. It’s windy up there, in that
+              exhilarating
+              "don’t lean too far" kind of way. Sunset’s the prime time, when the city starts lighting up
+              like a circuit
+              board. And if you’re feeling extra, splurge on the digital photo package—they superimpose
+              you onto the
+              infinity pool (because let’s be real, that’s the only way most of us are getting near it).
+            </p>
+          </div>
+          <div id="content-sentosa" class="content-section">
+            <h2 class="section-title">Sentosa</h2>
+            <p>Sentosa’s where Singapore lets loose. It’s part beach getaway, part theme park, part luxury
+              escape—all
+              packed onto one island. You’ve got Universal Studios (obviously), but also quieter gems like
+              Palawan
+              Beach’s rope bridge to a tiny "southernmost point of Asia" island. Adventure junkies
+              zip-line at Mega
+              Adventure Park, while foodies stuff themselves at fancy beach clubs. The cable car over from
+              Mount Faber
+              is a scenic way in, or just take the monorail if you’re lazy. At night, the whole place
+              glows—bars, light
+              shows, even the sand seems to sparkle. It’s touristy, sure, but in that "who cares, this is
+              fun" kind of
+              way.</p>
+          </div>
+          <div id="content-universal" class="content-section">
+            <h2 class="section-title">Universal Studios Singapore</h2>
+            <p>Let’s be real—theme parks can be hit or miss, but Universal Studios Singapore? Absolute hit.
+              This place
+              isn’t just rides; it’s like getting dropped into your favorite movies. The Battlestar
+              Galactica roller
+              coasters? Terrifying in the best way. One’s a high-speed rush, the other dangles you
+              mid-air—pure
+              adrenaline. And the Transformers ride? You’ll swear Optimus Prime is actually there. Even if
+              you’re not a
+              thrill-seeker, just walking around is fun. Far Far Away looks like Shrek’s kingdom exploded
+              with color,
+              and Hollywood’s retro vibe makes you feel like a star.</p>
+          </div>
+          <div id="content-artscience" class="content-section">
+            <h2 class="section-title">ArtScience Museum</h2>
+            <p>You know those places that make you stop and go, "Whoa, that’s cool?" That’s the ArtScience
+              Museum. The
+              building alone—a giant lotus—is wild. Inside, it’s even better. Future World is like
+              stepping into a
+              digital dream: flowers bloom under your feet, lights react to your touch, and there’s this
+              whole room that
+              feels like floating in space. The special exhibits change, but they’re always
+              mind-bending—think Harry
+              Potter props, alien tech, or deep-sea mysteries. Kids love it (so many buttons to press),
+              but adults get
+              hooked too. And that indoor waterfall? Yeah, the roof funnels rain into it. Genius. If
+              you’re tired of
+              Singapore’s usual sights, this is a fresh, brain-tickling escape.</p>
+          </div>
+          <div id="content-luge" class="content-section">
+            <h2 class="section-title">Skyline Luge</h2>
+            <p>Picture this: You’re on a little cart with wheels, no engine, just gravity pulling you down a
+              twisty
+              track. That’s the Skyline Luge, and it’s way more fun than it sounds. First run, you’ll
+              brake like a
+              nervous grandma. By the third? Full speed, laughing like a maniac. The chairlift back up is
+              almost as
+              good—views stretch over Sentosa and the sea, especially pretty at sunset. Night rides are a
+              whole mood
+              too, with the track lit up and the wind in your face. It’s simple, silly, and somehow one of
+              the most
+              memorable things you’ll do. Just embrace the helmet hair and go.</p>
+          </div>
+          <div id="content-aquarium" class="content-section">
+            <h2 class="section-title">S.E.A. Aquarium</h2>
+            <p>Ever just stared at fish and zoned out? The S.E.A. Aquarium is that, but epic. The Open Ocean
+              tank is
+              insane—sharks, rays, and a zillion fish drifting past a massive window. It’s weirdly
+              peaceful, like
+              underwater meditation. Other highlights? Glowing jellyfish (Instagram gold), creepy moray
+              eels, and a
+              touch pool where you can pet (very chill) sharks. The shipwreck tunnel feels like you’re
+              lost at sea, in a
+              good way. Crowds get nuts midday, so go early or near closing. And if you see a ray
+              "smiling" at you?
+              Yeah, that’s normal here.</p>
+          </div>
+          <div id="content-night-safari" class="content-section">
+            <h2 class="section-title">Night Safari</h2>
+            <p>Zoos are cool, but a zoo at night? Next-level. The Night Safari feels like a jungle
+              adventure—no cages,
+              just animals doing their thing under dim light. The tram ride’s a good start (spotting
+              hyenas and rhinos
+              in the dark), but the walking trails are where it gets real. Leopards pad silently right
+              past you, bats
+              swoop overhead, and there’s this weirdly cute creature called a binturong that looks like a
+              bear-cat
+              hybrid. The Creatures of the Night show is cheesy but fun—otters cracking clams, snakes
+              being dramatic.
+              It’s not glossy; it’s raw, a little chaotic, and totally unique. Just wear bug spray.
+              Mosquitoes here are
+              enthusiastic.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="destination" class="py-4">
+    <div class="container-fluid">
+      <h2 class="text-center fw-bold">Singapore Travel Packages</h2>
+      <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+        <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+          <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+            Packages</button>
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-4n5d')">4N</button>
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-5n6d')">5N</button>
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-6n7d')">6N</button>
+          <!-- <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-8n9d')">8N/9D</button> -->
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-10n11d')">10N</button>
+        </div>
+      </div>
+      <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+        <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=65ae16ca743d7d226548b563&currency=INR">
+            <img src="images/singapore/Uniquely Singapore.png" class="card-img-top" alt="Uniquely Singapore Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Uniquely Singapore</h5>
+            <p class="card-text text-muted mb-1">4N/5D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹44,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=65ae16ca743d7d226548b563&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=664ad7fe8c7434194457d559&currency=INR">
+            <img src="images/singapore/Singapore Fully Loaded.png" class="card-img-top"
+              alt="Singapore Fully Loaded Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Singapore Fully Loaded</h5>
+            <p class="card-text text-muted mb-1">4N/5D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹56,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=664ad7fe8c7434194457d559&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-10n11d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=66962a116f18f67e1241bb4a&currency=INR">
+            <img src="images/singapore/Singapore, Malaysia & Thailand.png" class="card-img-top"
+              alt="Singapore, Malaysia & Thailand Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Singapore, Malaysia & Thailand</h5>
+            <p class="card-text text-muted mb-1">10N/11D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹94,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=66962a116f18f67e1241bb4a&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=66cdb239f72e111ceb1fd754&currency=INR">
+            <img src="images/singapore/Singapore with Bintan Island.png" class="card-img-top"
+              alt="Singapore with Bintan Island Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Singapore with Bintan Island</h5>
+            <p class="card-text text-muted mb-1">5N/6D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹74,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=66cdb239f72e111ceb1fd754&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=65fd1eec44770b1b894999e1&currency=INR">
+            <img src="images/singapore/Singapore with Cruise.png" class="card-img-top"
+              alt="Singapore with Cruise Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Singapore with Cruise</h5>
+            <p class="card-text text-muted mb-1">5N/6D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹77,490/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=65fd1eec44770b1b894999e1&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=66853427a7c3bc1942ebb5ec&currency=INR">
+            <img src="images/singapore/Best of Singapore & Malaysia.png" class="card-img-top"
+              alt="Best of Singapore & Malaysia Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Best of Singapore & Malaysia</h5>
+            <p class="card-text text-muted mb-1">6N/7D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹66,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=66853427a7c3bc1942ebb5ec&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=6875e694b159dc54ada2898f&currency=INR">
+            <img src="images/singapore/Twin Delights_ Singapore & Malaysia.png" class="card-img-top"
+              alt="Twin Delights: Singapore & Malaysia Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Twin Delights: Singapore & Malaysia</h5>
+            <p class="card-text text-muted mb-1">6N/7D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹84,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=6875e694b159dc54ada2898f&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark text-white py-3">
+    <div class="container text-center">
+      <span>Copyright © 2024 Zenithholidays.com All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // Synchronize carousel with content
+    $('#imageSlider').on('slid.bs.carousel', function () {
+      var contentId = $('.carousel-item.active').data('content');
+      $('.content-section').removeClass('active');
+      $('#' + contentId).addClass('active');
+    });
+
+    // Filter packages
+    function filterSelection(category) {
+      $('.filterDiv').each(function () {
+        $(this).removeClass('d-none');
+        if (category === 'all' || $(this).hasClass(category)) {
+          $(this).show();
+        } else {
+          $(this).hide();
+        }
+      });
+      $('.filter-btn').removeClass('active');
+      $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+    }
+
+    // Initialize first filter
+    filterSelection('all');
+  </script>
+</body>
+
+</html>

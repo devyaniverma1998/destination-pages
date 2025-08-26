@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dubai Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <style>
+      .banner {
+        background: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0.5)), url('images/dubai/Discover Dubai.png');
+        background-size: cover;
+        background-position: center;
+        color: white;
+      }
+
+      .banner-h {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+
+      .banner-text {
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+
+      .banner-text .h2 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .more {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ffc107;
+        color: black;
+        text-decoration: none;
+        border-radius: 25px;
+        font-weight: bold;
+      }
+
+      .more:hover {
+        background-color: #e0a800;
+      }
+
+      .grey-bg {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .content-section {
+        display: none;
+      }
+
+      .content-section.active {
+        display: block;
+      }
+
+
+
+      .filter-btn {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        color: #333;
+      }
+
+      .filter-btn.active,
+      .filter-btn:hover {
+        background-color: #0aa7df;
+        color: white;
+        border-color: #0aa7df;
+      }
+
+      .bn-img {
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .card-img-top {
+        cursor: pointer;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+      }
+    </style>
+  </head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+          alt="Zenith Logo" style="height: 60px;">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+              <li><a class="dropdown-item" href="#"> Vouchers</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid py-5 banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="text-white banner-h">Dubai</h1>
+          <p class="banner-text">
+            <span class="h2">D</span>ubai is a glittering oasis of ambition and awe. Futuristic skyscrapers rise from
+            golden sands, and souks buzz with the scent of spices and oud. Savor dates with Arabic coffee as the call to
+            prayer echoes
+            through the city. Cruise the Marina, wander old Dubai’s winding alleys, and marvel at desert sunsets that
+            set the dunes
+            ablaze. No ordinary journey—just bold, breathtaking contrasts. Pack for wonder.
+          </p>
+          <a href="https://www.zenithholidays.com/holiday/search?searchby=Dubai&type=1&category=&month="
+            class="more">BOOK NOW</a>
+        </div>
+        <div class="col-md-6 mt-5 banner-img">
+          <img
+            src="images/dubai/Discover Dubai.png"
+            class="d-block w-100 bn-img" height="300px" alt="Dubai City Skyline" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="destination-welcome" class="py-3">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">Dubai Travel Guide</h2>
+      <div class="row grey-bg">
+        <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-content="content-intro">
+              <img src="images/dubai/Discover Dubai.png" alt="Welcome to Dubai" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-city-tour">
+              <img src="images/dubai/Glamour of Dubai.png" alt="Dubai City Tour" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-desert-safari">
+              <img src="images/dubai/Dubai – A Luxury Escape.png" alt="Desert Safari" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-dhow-cruise">
+              <img src="images/dubai/Magical Mauritius with Dubai.png" alt="Dhow Cruise" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-marina-cruise">
+              <img src="images/dubai/MSC Cruises with Dubai.png" alt="Marina Cruise" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-jet-ski">
+              <img src="images/dubai/Dubai Kids Special.png" alt="Jet Ski to Burj Al Arab" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-burj-khalifa">
+              <img src="images/dubai/Burj Khalifa.png" alt="Burj Khalifa" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-burj-al-arab">
+              <img src="images/dubai/Essence Of Abu Dhabi.png" alt="Burj Al Arab" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-grand-mosque">
+              <img src="images/dubai/Glamour of Dubai.png" alt="Grand Mosque" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-dubai-mall">
+              <img src="images/dubai/Wonders Of Seychelles & Dubai.png" alt="Dubai Mall" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-dubai-museum">
+              <img src="images/dubai/Essence Of Abu Dhabi.png" alt="Dubai Museum" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-dubai-fountains">
+              <img src="images/dubai/Dubai.png" alt="Dubai Fountains" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-content="content-dubai-attractions">
+              <img src="images/dubai/Dubai Diaries.png" alt="Dubai Attractions" class="d-block w-100">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="col-md-8">
+          <div id="content-intro" class="content-section active">
+            <h2 class="section-title">Welcome to Dubai</h2>
+            <div class="intro-text">
+              <p>Book your dream Dubai trip with Zenith's exclusive Dubai tour packages. Reserve your
+                unforgettable vacation today! Ever wanted to explore the amazing city of Dubai? Well, now you can make
+                it happen with
+                Zenith’s awesome Dubai tour packages from India. People know Dubai as the City of Gold. Whether you're with your family, partner, or on your own, Dubai has
+                something for everyone! Our Dubai travel packages are great for everyone, no matter what your budget is.
+                You can
+                choose from a wide range of options, whether you want a fancy vacation or something more
+                affordable.</p>
+            </div>
+          </div>
+          <div id="content-city-tour" class="content-section">
+            <h2 class="section-title">Dubai City Tour</h2>
+            <p>Let’s be real—no trip to Dubai is complete without a city tour, but this isn’t your average
+              hop-on-hop-off snoozefest. One minute you’re gawking at the Burj Khalifa, so tall it looks
+              like it’s poking a hole in the sky, and the next, you’re lost in the spice-scented alleys of
+              Al Fahidi, where the air smells like cardamom and centuries-old history. The contrast is
+              wild—gold-plated supercars zoom past camel markets, and traditional wind towers sit in the
+              shadow of glass skyscrapers. Don’t just stick to the guidebook highlights; sneak into the
+              Dubai Frame for a literal picture-perfect view of old vs. new, and if you’re lucky, catch
+              the sunset from the Palm Jumeirah Boardwalk. Pro tip? Wear comfy shoes—you’ll be craning
+              your neck so much at the architecture, you might trip over your own feet.</p>
+          </div>
+          <div id="content-desert-safari" class="content-section">
+            <h2 class="section-title">Desert Safari</h2>
+            <p>Hold onto your stomach—this isn’t just a desert; it’s a rollercoaster without tracks. The
+              second your 4x4 hits those dunes, you’re in for a wild ride of heart-in-your-throat drops
+              and tire-spinning climbs. Swap adrenaline for culture with camel rides that feel like sailing on lumpy boats,
+              or get a henna tattoo while sipping karak chai that’s sweeter than it has any right to be.
+              As night falls, feast on grilled meats under the stars while belly dancers shimmy to
+              hypnotic beats. Just don’t wear white—between the sand and the barbecue sauce, it’s a losing
+              battle.</p>
+          </div>
+          <div id="content-dhow-cruise" class="content-section">
+            <h2 class="section-title">Dhow Cruise</h2>
+            <p>Forget sleek yachts—Dubai’s soul is best seen from a wooden dhow, gently bobbing along the
+              Dubai Creek. As the city’s skyline twinkles like a kid’s glitter project, you’ll glide past
+              trading dhows loaded with spices and textiles, just like they’ve done for decades. The
+              buffet? Surprisingly legit—think smoky kebabs, creamy hummus, and desserts sticky with
+              honey. But the real showstopper is the breeze—warm, salty, and laced with the hum of distant
+              souks. Time it for sunset, when the minarets glow gold against the pink sky, and you’ll see
+              why this sleepy cruise beats any flashy marina party.</p>
+          </div>
+          <div id="content-marina-cruise" class="content-section">
+            <h2 class="section-title">Marina Cruise</h2>
+            <p>If the Creek is Dubai’s past, the Marina is its over-the-top present. Aboard a sleek yacht,
+              you’ll weave through a canyon of skyscrapers so shiny you can check your reflection. The
+              Palm’s fronds loom like a sci-fi mirage, while the Atlantis Hotel pretends it’s Poseidon’s
+              lost palace. Opt for an evening cruise, when the buildings light up like a billionaire’s
+              disco, and the Burj Al Arab’s sail-shaped silhouette steals the show. Champagne in hand,
+              you’ll feel like an extra in a Bond movie—just try not to gawk when a megayacht the size of
+              a mall floats by.</p>
+          </div>
+          <div id="content-jet-ski" class="content-section">
+            <h2 class="section-title">Jet Ski to Burj Al Arab</h2>
+            <p>Want to really see the Burj Al Arab? Ditch the postcard views and hit the waves. On a jet
+              ski, Dubai’s most famous hotel isn’t just a backdrop—it’s a towering, sail-shaped giant you
+              can almost high-five as you zip past. The water’s so blue it hurts your eyes, and the spray
+              in your face is the best antidote to the desert heat. Your guide will lead you past hidden
+              beaches and secret coves, with the city’s skyline winking in the distance. Just don’t forget
+              your GoPro—when you’re that close to an icon, proof is non-negotiable.</p>
+          </div>
+          <div id="content-burj-khalifa" class="content-section">
+            <h2 class="section-title">Burj Khalifa</h2>
+            <p>Let’s cut to the chase—you haven’t really seen Dubai until you’ve stood at the base of the
+              Burj Khalifa, craning your neck until it hurts. This isn’t just a tall building; it’s a
+              middle finger to gravity. At 828 meters, the views from "At the Top" (124th floor) will make
+              your stomach drop—the city sprawls beneath you like a toy model, with tiny cars inching
+              along highways and the desert bleeding into the ocean. Go at sunset when the light turns the
+              glass towers into molten gold. Pro tip: Skip the basic tickets and splurge on the SKY level
+              (148th floor)—you’ll bypass the crowds and get a champagne toast that feels ridiculously
+              fancy when you’re hovering a half-mile in the air.</p>
+          </div>
+          <div id="content-burj-al-arab" class="content-section">
+            <h2 class="section-title">Burj Al Arab</h2>
+            <p>That sail-shaped silhouette isn’t just a hotel—it’s a flex. The Burj Al Arab doesn’t do
+              "subtle." Gold-leaf ceilings? Check. A helipad that hosted Federer and Djokovic playing
+              tennis? Obviously. You’ll need a reservation (or a room starting at $1K/night) to get past
+              the lobby, but even the exterior is worth the drive. Snap pics from the public beach next
+              door, where the contrast of that absurdly opulent tower against the blue Gulf is pure Dubai
+              in one frame.</p>
+          </div>
+          <div id="content-grand-mosque" class="content-section">
+            <h2 class="section-title">Grand Mosque</h2>
+            <p>No, not that Grand Mosque—this is Sheikh Zayed’s little sister in Dubai, and she’s stunning.
+              The blinding white domes and minarets glow like they’re lit from within, especially at
+              golden hour when the marble seems to melt into the sky. Inside, it’s all intricate floral
+              mosaics, a chandelier that weighs as much as a small plane, and a carpet so vast you’ll
+              wonder how they got it through the door. Dress modestly (abayas are provided), and stay for
+              the evening call to prayer—the echo under those arches is hauntingly beautiful.</p>
+          </div>
+          <div id="content-dubai-mall" class="content-section">
+            <h2 class="section-title">Dubai Mall</h2>
+            <p>This isn’t shopping—it’s an Olympic sport. The Dubai Mall is less "mall" and more
+              "city-within-a-city," complete with an aquarium (where sharks glide overhead as you browse
+              shoes), an ice rink (because why not), and a waterfall with sculpted divers frozen
+              mid-plunge. You’ll get lost. You’ll spend too much money. You’ll eat at a restaurant
+              overlooking the fountains while questioning your life choices. Lean into it.</p>
+          </div>
+          <div id="content-dubai-museum" class="content-section">
+            <h2 class="section-title">Dubai Museum</h2>
+            <p>Tucked inside the 18th-century Al Fahidi Fort, this place is Dubai’s origin story. The
+              contrast is jarring—outside, skyscrapers claw at the sky; inside, exhibits show pearl divers
+              gripping knives in their teeth and Bedouins navigating dunes with stars. The cool, dark
+              galleries are a respite from the heat, and the dioramas of old souks (complete with lifelike
+              wax figures haggling) make you realize how fast this place went from fishing village to
+              sci-fi metropolis.</p>
+          </div>
+          <div id="content-dubai-fountains" class="content-section">
+            <h2 class="section-title">Dubai Fountains</h2>
+            <p>Forget Bellagio—these fountains are next-level. Every 30 minutes after sunset, water erupts
+              140 meters high, twisting to Arabic ballads or, bizarrely, Celine Dion. The best view? From
+              an abra (water taxi) bobbing on the lake, where the mist kisses your face as lights dance
+              across Burj Khalifa. It’s cheesy, spectacular, and so Dubai—over-the-top, unapologetic, and
+              impossible to ignore.</p>
+          </div>
+          <div id="content-dubai-attractions" class="content-section">
+            <h2 class="section-title">Dubai Attractions</h2>
+            <p>Dubai's skyline isn't complete without the Burj Khalifa punching through the clouds - that
+              vertigo-inducing view from the 124th floor will make your knees weak as miniature cars crawl
+              through ant-sized streets below. The Burj Al Arab isn't just a hotel, it's Dubai's golden
+              middle finger to subtlety, where they'll serve you gold-flaked cappuccinos if you can sneak
+              past the velvet ropes. The Dubai Museum hides in an old fort like a whispered secret, its dusty
+              dioramas showing how pearl divers and Bedouins built this glittering monster of a city. And
+              when night falls, the fountains erupt in liquid fireworks, dancing to Arabic love songs as
+              the Burj Khalifa becomes the world's tallest disco ball - pure magic that'll make you forget
+              you're in the middle of a desert.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="destination" class="py-4">
+    <div class="container-fluid">
+      <h2 class="text-center fw-bold">Dubai Travel Packages</h2>
+      <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+        <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+          <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+            Packages</button>
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-3n4d')">3N</button>
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-4n5d')">4N</button>
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-5n6d')">5N</button>
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-6n7d')">6N</button>
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-7n8d')">7N</button>
+          <button class="btn filter-btn rounded-pill px-3 py-2" onclick="filterSelection('pkg-9n10d')">9N</button>
+        </div>
+      </div>
+      <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+        <div class="filterDiv all pkg-3n4d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=6641c0cbbbe11f06851fa864&currency=INR">
+            <img src="images/dubai/Essence Of Abu Dhabi.png" class="card-img-top" alt="Essence Of Abu Dhabi Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Essence Of Abu Dhabi</h5>
+            <p class="card-text text-muted mb-1">3N/4D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹70,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=6641c0cbbbe11f06851fa864&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=676e87dcf946ee16595a98a7&currency=INR">
+            <img src="images/dubai/Discover Dubai.png" class="card-img-top" alt="Discover Dubai Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Discover Dubai</h5>
+            <p class="card-text text-muted mb-1">4N/5D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹29,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=676e87dcf946ee16595a98a7&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=66e28bf0a964291953ff1b11&currency=INR">
+            <img src="images/dubai/Dubai Kids Special.png" class="card-img-top" alt="Dubai Kids Special Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Dubai Kids Special</h5>
+            <p class="card-text text-muted mb-1">4N/5D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹44,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=66e28bf0a964291953ff1b11&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+          <a href="images/dubai/Dubai Diaries.png">
+            <img
+              src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/686e5626b159dc54ada2071c/HDP3_Web.jpg"
+              class="card-img-top" alt="Dubai Diaries Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Dubai Diaries</h5>
+            <p class="card-text text-muted mb-1">5N/6D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹26,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=686e5626b159dc54ada2071c&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=686f6372b159dc54ada21dcd&currency=INR">
+            <img src="images/dubai/Glamour of Dubai.png" class="card-img-top" alt="Glamour of Dubai Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Glamour of Dubai</h5>
+            <p class="card-text text-muted mb-1">5N/6D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹28,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=686f6372b159dc54ada21dcd&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=68774280b159dc54ada2a81e&currency=INR">
+            <img src="images/dubai/Dubai.png" class="card-img-top" alt="Dubai Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Dubai</h5>
+            <p class="card-text text-muted mb-1">5N/6D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹53,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=68774280b159dc54ada2a81e&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=67f370954e25cc16a38783e9&currency=INR">
+            <img src="images/dubai/Dubai – A Luxury Escape.png" class="card-img-top"
+              alt="Dubai – A Luxury Escape Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Dubai – A Luxury Escape</h5>
+            <p class="card-text text-muted mb-1">6N/7D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹2,86,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=67f370954e25cc16a38783e9&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=67f35f8c4e25cc16a3877df0&currency=INR">
+            <img src="images/dubai/MSC Cruises with Dubai.png" class="card-img-top"
+              alt="MSC Cruises with Dubai Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">MSC Cruises with Dubai</h5>
+            <p class="card-text text-muted mb-1">7N/8D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹175,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=67f35f8c4e25cc16a3877df0&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=66a0fa96b3888a1943313812&currency=INR">
+            <img src="images/dubai/Magical Mauritius with Dubai.png" class="card-img-top"
+              alt="Magical Mauritius with Dubai Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Magical Mauritius with Dubai</h5>
+            <p class="card-text text-muted mb-1">9N/10D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹101,490/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=66a0fa96b3888a1943313812&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=669dec93b3888a1943311e56&currency=INR">
+            <img src="images/dubai/Wonders Of Seychelles & Dubai.png" class="card-img-top"
+              alt="Wonders Of Seychelles & Dubai Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Wonders Of Seychelles & Dubai</h5>
+            <p class="card-text text-muted mb-1">9N/10D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹162,490/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=669dec93b3888a1943311e56&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+          <a href="https://www.zenithholidays.com/holiday/details?id=669de9a9b3888a1943311dd9&currency=INR">
+            <img src="images/dubai/Stunning Seychelles with Dubai.png" class="card-img-top"
+              alt="Stunning Seychelles with Dubai Package">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title fw-semibold">Stunning Seychelles with Dubai</h5>
+            <p class="card-text text-muted mb-1">7N/8D</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div><small class="text-muted">Starting from</small><span
+                  class="h5 fw-bold text-dark d-block">₹105,990/-</span></div>
+              <a href="https://www.zenithholidays.com/holiday/details?id=669de9a9b3888a1943311dd9&currency=INR"
+                class="btn btn-warning rounded-pill px-4">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark text-white py-3">
+    <div class="container text-center">
+      <span>Copyright © 2024 Zenithholidays.com All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // Synchronize carousel with content
+    $('#imageSlider').on('slid.bs.carousel', function () {
+      var contentId = $('.carousel-item.active').data('content');
+      $('.content-section').removeClass('active');
+      $('#' + contentId).addClass('active');
+    });
+
+    // Filter packages
+    function filterSelection(category) {
+      $('.filterDiv').each(function () {
+        $(this).removeClass('d-none');
+        if (category === 'all' || $(this).hasClass(category)) {
+          $(this).show();
+        } else {
+          $(this).hide();
+        }
+      });
+      $('.filter-btn').removeClass('active');
+      $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+    }
+
+    // Initialize first filter
+    filterSelection('all');
+  </script>
+</body>
+
+</html>
