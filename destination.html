@@ -44,7 +44,7 @@
                         <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                        <a class="nav-link active" aria-current="" href="#">Holidays</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
@@ -78,29 +78,47 @@
 
     <section class="desti py-5">
         <div class="container grey-bg pt-3" style="border-radius: 20px;">
-            <h2>Destination Page</h2>
-            <div class="row-cols-lg-3 row ">
-                <div class="com-md-4">
-                    <a href="https://zenithmedicaid.com/test/dubai-destination.html" target="_blank">
-                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/67f370954e25cc16a38783e9/HDP1_Web.jpg"
-                            class="d-block w-100 bn-img" height="300px" alt="Image 2" />
-                        <h4 class="text-center">Dubai Page</h4>
+            <h2>Destination </h2>
+            <div class="row-cols-lg-4 row ">
+                <div class="com-md-3">
+                    <a href="/dubai.html" target="_blank">
+                        <img src="images/dubai/Dubai.png" class="d-block w-100 bn-img" alt="Image 2" />
+                        <p class="text-center">Dubai </p>
                     </a>
 
                 </div>
-                <div class="com-md-4">
-                    <a href="https://zenithmedicaid.com/test/malaysia-destination.html" target="_blank">
-                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/66965cd46f18f67e1241bdcc/HDP2_Web.png"
-                            class="d-block w-100 bn-img" height="300px" alt="Image 2" />
-                        <h4 class="text-center">Malaysia Page</h4>
+                <div class="com-md-3">
+                    <a href="/malaysia.html" target="_blank">
+                        <img src="images/malaysia/Best of Malaysia.png" class="d-block w-100 bn-img" alt="Image 2" />
+                        <p class="text-center">Malaysia </p>
                     </a>
 
                 </div>
-                <div class="com-md-4">
-                    <a href="https://zenithmedicaid.com/test/singapore-destination.html" target="_blank">
-                        <img src="https://www.zenithholidays.com/shared/api/media/656dba279262a37f6d26a3a2/packageimage/65fd223144770b1b89499a20/HDP2_Web.png"
-                            class="d-block w-100 bn-img" height="300px" alt="Image 2" />
-                        <h4 class="text-center">Singapore Page</h4>
+                <div class="com-md-3">
+                    <a href="/singapore.html" target="_blank">
+                        <img src="images/singapore/Uniquely Singapore.png" class="d-block w-100 bn-img" alt="Image 2" />
+                        <p class="text-center">Singapore </p>
+                    </a>
+
+                </div>
+                <div class="com-md-3">
+                    <a href="/bali.html" target="_blank">
+                        <img src="images/bali/Bali.png" class="d-block w-100 bn-img" alt="Image 2" />
+                        <p class="text-center">Bali </p>
+                    </a>
+
+                </div>
+                <div class="com-md-3">
+                    <a href="/thailand.html" target="_blank">
+                        <img src="images/thailand/Phuket & Krabi.png" class="d-block w-100 bn-img" alt="Image 2" />
+                        <p class="text-center">Thailand </p>
+                    </a>
+
+                </div>
+                <div class="com-md-3">
+                    <a href="/vietnam.html" target="_blank">
+                        <img src="images/vietnam/Explore Vietnam.png" class="d-block w-100 bn-img" alt="Image 2" />
+                        <p class="text-center">Vietnam </p>
                     </a>
 
                 </div>
@@ -112,13 +130,9 @@
             padding: 10px;
         }
 
-        .desti img {
-            padding: 20px;
-        }
-
         .desti a {
             color: black;
-            font-size: 20px;
+            font-size: 15px;
         }
 
         .desti .com-md-4 {
@@ -130,48 +144,45 @@
 
 
 
-    <footer class="footer5_footer_main__Hexf2" id="foootermaim">
-        <div class="footer5_travel_copyright__qB5dS">
-            <div class="container px-4 xl:px-8 footer5_trav_copyFlx___Hnip">
-                <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
-                <div class="footer5_trav_copyIcon__dX2is"></div>
-            </div>
+
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 ZenithholiD.com All Rights Reserved</span>
         </div>
     </footer>
 
-    <script>
-        function toggleMenu() {
-            document.getElementById("navLinks").classList.toggle("show");
-        }
-    </script>
-
-
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                dots: true,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                responsive: {
-                    0: { items: 1 },
-                    576: { items: 2 },
-                    768: { items: 3 },
-                    992: { items: 4 },
-                },
-            });
-        });
-    </script>
-
-    <script src="zenith.js"></script>
+    <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
     </script>
 </body>
 

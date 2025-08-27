@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bali Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/bali/Bali Saver.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+                    alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h">Bali</h1>
+                    <p class="banner-text">
+                        Bali is paradise redefined—emerald rice terraces, mystical temples, and beaches that glow at
+                        sunset. From
+                        Ubud’s cultural heart to Seminyak’s luxury vibes, Bali blends spirituality and adventure like
+                        nowhere else.
+                        Discover hidden waterfalls, snorkel vibrant reefs, or just soak in the island’s slow magic.
+                    </p>
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=Bali&type=1&category=&month="
+                        class="more">BOOK NOW</a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/bali/Bali Saver.png" class="d-block w-100 bn-img" height="300px"
+                        alt="Bali Beach" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Bali Travel Guide</h2>
+            <div class="row grey-bg">
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-bali">
+                            <img src="images/bali/Bali Escape.png" alt="Thailand Overview" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-atv-quad">
+                            <img src="images/bali/Bali Experience.png" alt="Grand Palace" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-bali-swing-ubud">
+                            <img src="images/bali/Bali Saver.png" alt="Phi Phi Islands" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-sacred-monkey">
+                            <img src="images/bali/Bali Trails.png" alt="Chiang Mai Night Bazaar" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-elephant-cave">
+                            <img src="images/bali/Bali.png" alt="Ayutthaya Historical Park" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-snorkeling-tour">
+                            <img src="images/bali/Beautiful Bali-Ex Kolkata.png" alt="Patong Beach"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-ubud-city-tour">
+                            <img src="images/bali/Blissful Bali.png" alt="Koh Samui" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-nusa-penida-island">
+                            <img src="images/bali/Exciting Bali.png" alt="Damnoen Saduak Floating Market"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-lempuyang-temple">
+                            <img src="images/bali/Grand Tour of Bali.png" alt="Railay Beach" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-aling-aling-waterfall">
+                            <img src="images/bali/Pristine Bali.png" alt="Wat Phra That Doi Suthep"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-ceking-rice-terrace">
+                            <img src="images/bali/Serene Bali.png" alt="Full Moon Party" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-goa-gajah">
+                            <img src="images/bali/Soulful Bali.png" alt=" Party" class="d-block w-100">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="col-md-8 pb-3">
+                    <div id="content-bali" class="content-section active">
+                        <h2 class="section-title">Welcome to Bali</h2>
+                        <p>The kind where jungle mist clings to your skin in Ubud, where Komodo dragons flick their
+                            tongues like they’re tasting the air, where the ocean shifts from turquoise to ink-blue in
+                            seconds. Yes, Bali’s beaches are stupidly beautiful, but have you sat on a rusty scooter in
+                            Jakarta at midnight, sticky air thick with satay smoke and laughter? Perfection’s overrated.
+
+                            The Gili Islands? White sand so fine it feels like powdered sugar. But it’s the
+                            imperfections that stick—the stray cat napping in your beach bar chair, the ferry that’s
+                            always late, the way the stars look when the generator cuts out. And Sumatra… God, Sumatra.
+                            Orangutans move like slow-motion poets, all tangled fur and quiet wisdom.
+
+                        </p>
+                    </div>
+                    <div id="content-atv-quad" class="content-section">
+                        <h2 class="section-title">ATV Quad Bike Bali with Waterfall & Gorilla Cave</h2>
+                        <p>If you’re craving adventure with a side of raw natural beauty, the ATV Quad Bike tour in Bali
+                            is a must. Picture this: you’re tearing through muddy jungle trails, splashing across
+                            rivers, and weaving through rice paddies with the wind in your hair. The real magic happens
+                            when you reach the hidden gems—like a cascading waterfall where you can cool off after the
+                            ride, and the dramatic Gorilla Cave, named for its massive, primal rock formation that looks
+                            straight out of a wild jungle movie. This isn’t just a ride; it’s an adrenaline-packed
+                            journey through Bali’s untamed side. No experience? No problem. Guides keep things safe
+                            while letting you go wild. Just be ready to get dirty—this is the kind of fun that sticks
+                            with you (literally).
+                        </p>
+                    </div>
+                    <div id="content-bali-swing-ubud" class="content-section">
+                        <h2 class="section-title">Bali Swing Ubud</h2>
+                        <p>Ever dreamed of swinging over a jungle like Tarzan? The Bali Swing in Ubud makes it
+                            happen—minus the vines. Perched high above the treetops, these giant swings send you soaring
+                            over lush valleys with nothing but open air beneath you. The views? Unreal. Think emerald
+                            rice terraces, coconut palms, and the distant misty peaks of the jungle. There are different
+                            heights to suit your bravery (or lack thereof), plus Instagram-worthy nests and hanging pods
+                            for those who prefer their thrills photo-friendly. It’s touristy, yes, but for good
+                            reason—where else can you feel this kind of freedom? Go early to beat the crowds and soak in
+                            the serenity before the chaos kicks in.
+                        </p>
+                    </div>
+                    <div id="content-sacred-monkey" class="content-section">
+                        <h2 class="section-title">Sacred Monkey Forest Sanctuary</h2>
+                        <p>Walking into Ubud’s Sacred Monkey Forest feels like stepping into another world—one where
+                            mischievous long-tailed macaques rule the jungle. Ancient stone temples crumble under
+                            twisting banyan roots, and cheeky monkeys scamper everywhere, eyeing your belongings (hold
+                            onto your sunglasses—they’re notorious thieves). It’s equal parts magical and chaotic. Some
+                            monkeys will climb onto your shoulder for a photo (or a snack), while others might stage a
+                            daring bag raid. Respect their space, and you’ll leave enchanted. Beyond the primates, the
+                            forest itself is breathtaking—moss-covered statues, towering trees, and an eerie, almost
+                            mystical vibe. Just watch your step; the monkeys aren’t the only ones who leave surprises on
+                            the path.</p>
+                    </div>
+                    <div id="content-elephant-cave" class="content-section">
+                        <h2 class="section-title">Elephant Cave (Goa Gajah)</h2>
+                        <p>Goa Gajah, or the Elephant Cave, isn’t your typical tourist spot—it’s a slice of Bali’s
+                            spiritual heart wrapped in mystery. The entrance? A monstrous carved mouth, like something
+                            from an ancient legend. Inside, tight passageways lead to old meditation chambers where
+                            priests once sought enlightenment. Outside, jungle-clad ruins and bathing pools carved from
+                            stone whisper stories of the 9th century. It’s quiet, a bit eerie, and utterly mesmerizing.
+                            Unlike Bali’s crowded temples, Goa Gajah keeps a low profile, letting you explore without
+                            the hustle. Bring a sarong (it’s required), and take your time—this place rewards the
+                            curious.</p>
+                    </div>
+                    <div id="content-snorkeling-tour" class="content-section">
+                        <h2 class="section-title">Snorkeling Tour at Blue Lagoon Beach
+                        </h2>
+                        <p>Blue Lagoon Beach isn’t just pretty from the shore—dive in, and it’s a whole other universe.
+                            The water’s so clear you’ll spot neon fish darting between coral before you even fully
+                            submerge. Snorkeling here feels like gliding through an aquarium, with gentle currents
+                            making it perfect for beginners. Deeper out, turtles sometimes cruise by, and if you’re
+                            lucky, you might even see a reef shark (don’t worry, they’re shy). The beach itself is a
+                            dream—white sand, cliffs framing the bay, and warungs serving fresh coconut after your swim.
+                            Crowds? Hardly. This is the kind of spot that makes you wonder why anyone bothers with
+                            packed tourist beaches when paradise is this quiet.</p>
+                    </div>
+                    <div id="content-ubud-city-tour" class="content-section">
+                        <h2 class="section-title">Ubud City Tour</h2>
+                        <p>Ubud is the heart of Bali’s culture, a place where art, tradition, and nature blend
+                            seamlessly. Stroll through the vibrant market, where handcrafted souvenirs, batik fabrics,
+                            and intricate wood carvings spill from every stall. The air hums with creativity, especially
+                            around the Royal Palace, where nightly Legong dances tell ancient stories through graceful
+                            movements. Don’t miss the Saraswati Temple, hidden behind a curtain of lotus blossoms—its
+                            water garden feels like stepping into a painting. Cafés and warungs line the streets,
+                            serving everything from spicy nasi goreng to smooth Balinese coffee. Ubud isn’t just a stop;
+                            it’s an experience, where every corner whispers something new—whether it’s a hidden art
+                            gallery, a quiet yoga shala, or the distant chime of gamelan music drifting through the
+                            trees.
+                        </p>
+                    </div>
+                    <div id="content-nusa-penida-island" class="content-section">
+                        <h2 class="section-title">Nusa Penida Island</h2>
+                        <p>Nusa Penida is raw, wild beauty—no filters needed. Cliffs plunge into turquoise waves at
+                            Kelingking Beach, where the viewpoint feels like the edge of the world. Angel’s Billabong is
+                            a natural infinity pool carved by the ocean, while Broken Beach’s archway frames the sea
+                            like a postcard. The island’s rugged roads make getting around an adventure, but the payoff
+                            is worth it: snorkeling with manta rays at Manta Point, or finding solitude at Crystal Bay’s
+                            golden sand. Unlike Bali’s hustle, Penida moves slowly—locals greet you with easy smiles,
+                            and the pace feels untouched by time. Just remember, this isn’t a polished resort island;
+                            it’s nature at its most untamed, where every turn leaves you breathless.
+                        </p>
+                    </div>
+                    <div id="content-lempuyang-temple" class="content-section">
+                        <h2 class="section-title">Lempuyang Temple</h2>
+                        <p>Lempuyang Temple isn’t just a photo op—though the "Gates of Heaven" framing Mount Agung is
+                            legendary. This is Bali’s oldest temple, a spiritual climb up 1,700 steps, where each tier
+                            rewards you with cooler air and quieter moments. The journey is as sacred as the
+                            destination; locals stop to pray at smaller shrines along the way, and the forest hums with
+                            cicadas. At the top, the view stretches endlessly, but the real magic is in the
+                            atmosphere—thin, almost electric, like the gods are close enough to whisper. Go early to
+                            beat the crowds, dress respectfully, and bring patience. The gate’s reflection might be
+                            Instagram-famous, but the temple’s soul is in the stillness between the steps.
+                        </p>
+                    </div>
+                    <div id="content-aling-aling-waterfall" class="content-section">
+                        <h2 class="section-title">Aling-Aling Waterfall</h2>
+                        <p>Aling-Aling is for the bold. This waterfall isn’t just about looking—it’s about jumping. The
+                            main cascade drops 35 meters, but the real thrill is the natural slides and cliff jumps
+                            further down, where locals guide you through heart-pounding leaps into crystal pools. Even
+                            if you’re not a daredevil, the jungle setting is mesmerising: emerald cliffs, mist hanging
+                            in the air, and the roar of water drowning out everything else. It’s a raw, unfiltered
+                            adventure, far from the tame tourist spots. Bring guts, a swimsuit, and maybe a change of
+                            clothes—you’ll leave soaked, sore, and grinning like a kid.</p>
+                    </div>
+                    <div id="content-ceking-rice-terrace" class="content-section">
+                        <h2 class="section-title">Ceking Rice Terrace
+                        </h2>
+                        <p>Ceking Rice Terrace is where Bali’s postcard-perfect landscapes come to life. Tiered emerald
+                            fields cling to the hillsides, with farmers moving like shadows between the paddies. The
+                            views are stunning, but the real magic is in the details—the sound of water trickling
+                            through irrigation channels, the rustle of coconut leaves, the way the light shifts over the
+                            fields at sunset. It’s touristy, yes, but wander off the main path and you’ll find quiet
+                            corners where time feels slower. Stop at a warung for fresh coconut and let the view sink
+                            in; this is Bali at its most iconic.</p>
+                    </div>
+                    <div id="content-goa-gajah" class="content-section">
+                        <h2 class="section-title">Goa Gajah</h2>
+                        <p>Goa Gajah, the "Elephant Cave," is a pocket of mystery. A carved demon mouth swallows you
+                            into a narrow tunnel, leading to a hidden shrine where offerings smolder in the dark.
+                            Outside, jungle-clad steps descend to a bathing pool fringed with ancient statues—some worn
+                            smooth by time, others still sharp with detail. The air feels heavy with history here;
+                            you’re walking through layers of myth and meditation. It’s not just a site—it’s a story, one
+                            that lingers long after you’ve left the shadows of the cave.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PACKAGES -->
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Bali Travel Packages</h2>
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-4n5d')">4N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-5n6d')">5N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-7n8d')">7N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-9n10d')">9N</button>
+                </div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+                <!-- Bali Saver -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=686e354caa69db0a5f01e36a&currency=INR"><img
+                            src="images/bali/Bali Saver.png" class="card-img-top" alt="Bali Saver"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Bali Saver</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹19,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=686e354caa69db0a5f01e36a&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exciting Bali -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6582c2467ad059403f8f1064&currency=INR"><img
+                            src="images/bali/Exciting Bali.png" class="card-img-top" alt="Exciting Bali"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Exciting Bali</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹26,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6582c2467ad059403f8f1064&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bali -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=687bb143b159dc54ada2ec24&currency=INR"><img
+                            src="images/bali/Bali.png" class="card-img-top" alt="Bali"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Bali</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹34,900/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=687bb143b159dc54ada2ec24&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bali Escape -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=657c011223f2f516afca481e&currency=INR"><img
+                            src="images/bali/Bali Escape.png" class="card-img-top" alt="Bali Escape"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Bali Escape</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹35,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=657c011223f2f516afca481e&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pristine Bali -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68384773d3b95d0a36053362&currency=INR"><img
+                            src="images/bali/Pristine Bali.png" class="card-img-top" alt="Pristine Bali"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Pristine Bali</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹36,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68384773d3b95d0a36053362&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soulful Bali -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=687644d3b159dc54ada29e1a&currency=INR"><img
+                            src="images/bali/Soulful Bali.png" class="card-img-top" alt="Soulful Bali"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Soulful Bali</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹43,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=687644d3b159dc54ada29e1a&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bali Experience -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6874fff1b159dc54ada27f61&currency=INR"><img
+                            src="images/bali/Bali Experience.png" class="card-img-top" alt="Bali Experience"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Bali Experience</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹43,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6874fff1b159dc54ada27f61&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blissful Bali -->
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=666a88a68a9f1f193f741318&currency=INR"><img
+                            src="images/bali/Blissful Bali.png" class="card-img-top" alt="Blissful Bali"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Blissful Bali</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹46,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=666a88a68a9f1f193f741318&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tropical Bali -->
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=666a855b8a9f1f193f74128f&currency=INR"><img
+                            src="images/bali/Tropical Bali.png" class="card-img-top" alt="Tropical Bali"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Tropical Bali</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹48,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=666a855b8a9f1f193f74128f&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Serene Bali -->
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=666a825d8a9f1f193f7411f8&currency=INR"><img
+                            src="images/bali/Serene Bali.png" class="card-img-top" alt="Serene Bali"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Serene Bali</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹49,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=666a825d8a9f1f193f7411f8&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grand Tour of Bali -->
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=666a8b838a9f1f193f74146b&currency=INR"><img
+                            src="images/bali/Grand Tour of Bali.png" class="card-img-top" alt="Grand Tour of Bali"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Grand Tour of Bali</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹55,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=666a8b838a9f1f193f74146b&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bali Trails -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6870d9ddb159dc54ada2403b&currency=INR"><img
+                            src="images/bali/Bali Trails.png" class="card-img-top" alt="Bali Trails"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Bali Trails</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹67,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6870d9ddb159dc54ada2403b&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beautiful Bali-Ex Kolkata -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68105c1e8725510a106ba486&currency=INR"><img
+                            src="images/bali/Beautiful Bali-Ex Kolkata.png" class="card-img-top"
+                            alt="Beautiful Bali-Ex Kolkata"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Beautiful Bali-Ex Kolkata</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹74,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68105c1e8725510a106ba486&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Highlights Of Bali -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6855499ffbba3f0a68f61aa5&currency=INR"><img
+                            src="images/bali/Highlights Of Bali.png" class="card-img-top" alt="Highlights Of Bali"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Highlights Of Bali</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹80,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6855499ffbba3f0a68f61aa5&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>
