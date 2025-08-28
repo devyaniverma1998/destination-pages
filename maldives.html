@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maldives Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/maldives/Magical Maldives.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+                    alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h fw-bold">Maldives</h1>
+                    <p class="banner-text text-white">
+                        The Maldives is a tropical paradise of powder-soft beaches, crystal lagoons, and overwater
+                        villas that float above turquoise seas.
+                        Imagine waking up to the sound of waves, swimming with manta rays, and dining under starlit
+                        skies—this is the magic of Maldives.
+                        From luxury resorts to untouched islands, every experience is painted with beauty, romance, and
+                        serenity.
+                        A true escape from the ordinary, where time slows down and nature embraces you.
+                        Maldives isn’t just a destination—it’s a dream lived in reality.
+                    </p>
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=Maldives&type=2&category=&month="
+                        class="more">
+                        BOOK NOW
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/maldives/Magical Maldives.png" class="d-block w-100 bn-img" height="300px"
+                        alt="Maldives Beach" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Maldives Travel Guide</h2>
+            <div class="row grey-bg">
+                <!-- Image Slider -->
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-maldives">
+                            <img src="images/maldives/Incredible Maldives.png" alt="Maldives Overview"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-beaches">
+                            <img src="images/maldives/Magical Maldives.png" alt="Maldives Beaches"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-male">
+                            <img src="images/maldives/Maldives – Memories Unlimited.png" alt="Malé City"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-atolls">
+                            <img src="images/maldives/Serene Maldives.png" alt="Atolls" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-resorts">
+                            <img src="images/maldives/Incredible Maldives.png" alt="Luxury Resorts"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-diving">
+                            <img src="images/maldives/Magical Maldives.png" alt="Scuba Diving" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-islands">
+                            <img src="images/maldives/Maldives – Memories Unlimited.png" alt="Private Islands"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-culture">
+                            <img src="images/maldives/Serene Maldives.png" alt="Maldivian Culture"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-wildlife">
+                            <img src="images/maldives/Incredible Maldives.png" alt="Marine Wildlife"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-sandbank">
+                            <img src="images/maldives/Magical Maldives.png" alt="Sandbank Picnic" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-sunset">
+                            <img src="images/maldives/Maldives – Memories Unlimited.png" alt="Sunset Cruise"
+                                class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-md-8 pb-3">
+                    <div id="content-maldives" class="content-section active">
+                        <h2 class="section-title">Welcome to Maldives</h2>
+                        <p>
+                            The Maldives is a paradise of turquoise lagoons, powdery white sands, and coral atolls
+                            scattered across the Indian Ocean. Whether you’re diving into vibrant reefs, relaxing in an
+                            overwater
+                            villa, or strolling through island villages, every moment here feels like a dream.
+                            More than just luxury, the Maldives is about simplicity, serenity, and soul-soothing beauty.
+                            A destination where time slows down, and nature’s embrace is endless.
+                            Come here to escape the noise of life and rediscover your inner calm.
+                            In the Maldives, even the silence feels alive.
+                        </p>
+                    </div>
+
+                    <div id="content-beaches" class="content-section">
+                        <h2 class="section-title">Pristine Beaches</h2>
+                        <p>
+                            The Maldives is home to some of the world’s most beautiful beaches. Soft, white sands melt
+                            into clear lagoons, while palm trees sway to the rhythm of the ocean breeze. Each beach
+                            offers a
+                            slice of tranquility—perfect for sunbathing, swimming, or simply doing nothing at all.
+                            Every shoreline feels like a private paradise, where the ocean’s rhythm becomes your
+                            heartbeat.
+                            Here, every step on the sand feels like walking on clouds.
+                            The beaches remind you that paradise can be real.
+                        </p>
+                    </div>
+
+                    <div id="content-male" class="content-section">
+                        <h2 class="section-title">Malé City</h2>
+                        <p>
+                            Malé, the bustling capital, offers a contrast to the Maldives’ serene islands. Visit the
+                            Grand Friday Mosque, stroll through the local fish market, and explore colorful streets
+                            filled
+                            with shops and cafes.
+                            A city alive with history, culture, and flavor, Malé shows you the everyday heartbeat of
+                            island life.
+                            It’s where tradition meets modernity in the most vibrant way.
+                            Malé is the soul of the Maldives, beating with energy and charm.
+                        </p>
+                    </div>
+
+                    <div id="content-atolls" class="content-section">
+                        <h2 class="section-title">Scenic Atolls</h2>
+                        <p>
+                            The Maldives is made up of 26 atolls, each with its own unique beauty. From untouched
+                            islands to vibrant reefs, every atoll offers a new adventure. Fly over them to witness
+                            nature’s
+                            masterpiece from above.
+                            Each atoll is a mosaic of turquoise waters and emerald isles, crafted by the ocean itself.
+                            Every turn brings a fresh perspective of paradise.
+                            The atolls are nature’s artwork, painted across the sea.
+                        </p>
+                    </div>
+
+                    <div id="content-resorts" class="content-section">
+                        <h2 class="section-title">Luxury Resorts</h2>
+                        <p>
+                            Stay in iconic overwater bungalows or beachfront villas that redefine luxury. With private
+                            pools, glass floors, and views of endless blue horizons, Maldivian resorts are among the
+                            most
+                            breathtaking in the world.
+                            Here, indulgence meets nature, creating experiences that stay with you forever.
+                            Every sunrise outside your villa feels like a painting.
+                            Resorts here don’t just pamper you—they enchant you.
+                        </p>
+                    </div>
+
+                    <div id="content-diving" class="content-section">
+                        <h2 class="section-title">Scuba Diving & Snorkeling</h2>
+                        <p>
+                            Dive into some of the richest marine ecosystems on Earth. Swim alongside manta rays, whale
+                            sharks, and schools of colorful fish. Coral reefs here are alive with vibrancy, making the
+                            Maldives a diver’s dream.
+                            Every dive is a journey into a living rainbow beneath the waves.
+                            Beneath the surface lies a world more magical than any dream.
+                            Each dive tells you a story written by the ocean.
+                        </p>
+                    </div>
+
+                    <div id="content-islands" class="content-section">
+                        <h2 class="section-title">Private Islands</h2>
+                        <p>
+                            Many Maldivian resorts are set on their own private islands. Imagine having an entire island
+                            to yourself, where luxury, privacy, and natural beauty combine in harmony.
+                            It’s the ultimate escape—just you, the sea, and the sky.
+                            Every private island is a kingdom of peace.
+                            Here, solitude turns into the sweetest luxury.
+                        </p>
+                    </div>
+
+                    <div id="content-culture" class="content-section">
+                        <h2 class="section-title">Maldivian Culture</h2>
+                        <p>
+                            Beyond beaches, the Maldives is rich in tradition. Experience local music and dance, savor
+                            dishes like mas huni (tuna with coconut), and explore island villages where heritage
+                            thrives.
+                            Culture here is woven with warmth, rhythm, and island pride.
+                            Every smile you meet tells a story of island life.
+                            Maldivian culture is a song you’ll carry home.
+                        </p>
+                    </div>
+
+                    <div id="content-wildlife" class="content-section">
+                        <h2 class="section-title">Marine Wildlife</h2>
+                        <p>
+                            From playful dolphins to nesting sea turtles, the Maldives is alive with wildlife
+                            encounters. Explore its UNESCO Biosphere Reserves for unforgettable glimpses of nature in
+                            its purest
+                            form.
+                            Every encounter is a reminder of the ocean’s fragile, breathtaking beauty.
+                            The wildlife here feels both magical and humbling.
+                            It reminds us how small we are in nature’s grand design.
+                        </p>
+                    </div>
+
+                    <div id="content-sandbank" class="content-section">
+                        <h2 class="section-title">Sandbank Picnic</h2>
+                        <p>
+                            One of the Maldives’ most magical experiences is a sandbank picnic. Dine on a tiny patch of
+                            sand surrounded by the vast ocean, with nothing but waves and sky for company.
+                            It’s romance, solitude, and adventure—all in one.
+                            Every picnic feels like a secret date with the ocean.
+                            Sandbanks turn simple meals into lifetime memories.
+                        </p>
+                    </div>
+
+                    <div id="content-sunset" class="content-section">
+                        <h2 class="section-title">Sunset Cruises</h2>
+                        <p>
+                            End your day with a sunset cruise on a traditional dhoni boat. As the sky turns golden and
+                            the sea glows, you may even spot dolphins dancing beside your boat.
+                            It’s the perfect farewell to another day in paradise.
+                            Each sunset cruise paints the sky with emotions.
+                            It’s a journey where time pauses, just for you.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- PACKAGES -->
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Maldives Travel Packages</h2>
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-4n5d')">4N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-5n6d')">5N</button>
+                </div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+                <!-- Serene Maldives  -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=686e2433aa69db0a5f01dd83&currency=INR"><img
+                            src="images/maldives/Serene Maldives.png" class="card-img-top" alt="Serene Maldives "></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Serene Maldives </h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹49,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=686e2433aa69db0a5f01dd83&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maldives – Memories Unlimited -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6687dd77e532751017887c5f&currency=INR"><img
+                            src="images/maldives/Maldives – Memories Unlimited.png" class="card-img-top"
+                            alt="Maldives  Experience"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Maldives – Memories Unlimited</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹68,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6687dd77e532751017887c5f&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Magical Maldives  -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6687e1bde532751017887cc6&currency=INR"><img
+                            src="images/maldives/Magical Maldives.png" class="card-img-top" alt="Magical Maldives "></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Magical Maldives </h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹148,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6687e1bde532751017887cc6&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Incredible Maldives  -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6687df51e532751017887c90&currency=INR"><img
+                            src="images/maldives/Incredible Maldives.png" class="card-img-top"
+                            alt="Incredible Maldives "></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Incredible Maldives </h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹173,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6687df51e532751017887c90&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>

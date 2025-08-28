@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mauritius Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/mauritius/Adrenaline Mauritius.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+                    alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h">Mauritius</h1>
+                    <p class="banner-text">
+                        Mauritius is where turquoise lagoons meet lush green mountains, and cultures blend into a
+                        vibrant mosaic.
+                        Stroll along white-sand beaches, lose yourself in colorful markets filled with spices and
+                        smiles, and
+                        discover waterfalls hidden deep in the jungle. Whether you’re diving with dolphins, hiking Le
+                        Morne, or
+                        savoring Creole cuisine, every moment here feels like paradise with soul. Mauritius isn’t just a
+                        destination—
+                        it’s an experience that stays with you.
+                    </p>
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=Mauritius&type=1&category=&month="
+                        class="more">
+                        BOOK NOW
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/mauritius/Adrenaline Mauritius.png" class="d-block w-100 bn-img" height="300px"
+                        alt="Mauritius Beach" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Mauritius Travel Guide</h2>
+            <div class="row grey-bg">
+                <!-- Image Slider -->
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-mauritius">
+                            <img src="images/mauritius/Mauritian Getaway.png" alt="Mauritius Overview"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-beaches">
+                            <img src="images/mauritius/Adrenaline Mauritius.png" alt="Mauritius Beaches"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-portlouis">
+                            <img src="images/mauritius/Magical Mauritius with Dubai.png" alt="Port Louis"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-chamarel">
+                            <img src="images/mauritius/Mauritius Honeymoon.png" alt="Chamarel Seven Colored Earth"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-black-river">
+                            <img src="images/Mauritius/Mystic Mauritius.png" alt="Black River Gorges"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-le-morne">
+                            <img src="images/mauritius/Mauritian Getaway.png" alt="Le Morne" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-grand-bay">
+                            <img src="images/mauritius/Adrenaline Mauritius.png" alt="Grand Bay" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-culture">
+                            <img src="images/mauritius/Magical Mauritius with Dubai.png" alt="Mauritius Culture"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-ile-aux-cerfs">
+                            <img src="images/mauritius/Mystic Mauritius.png" alt="Île aux Cerfs" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-wildlife">
+                            <img src="images/mauritius/Mauritius Honeymoon.png" alt="Mauritius Wildlife"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-underwater-waterfall">
+                            <img src="images/mauritius/Mauritian Getaway.png" alt="Underwater Waterfall"
+                                class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-md-8 pb-3">
+                    <div id="content-mauritius" class="content-section active">
+                        <h2 class="section-title">Welcome to Mauritius</h2>
+                        <p>
+                            Mauritius is more than just beaches—it’s a kaleidoscope of cultures, colors, and natural
+                            wonders. From sugarcane fields swaying in the breeze to lagoons glowing turquoise under the
+                            sun, every corner tells a story. Wander through lively markets, sip on fresh coconut water,
+                            or simply watch the sunset over the Indian Ocean. Here, paradise feels authentic and alive.
+
+                            Every moment is a postcard, every smile a memory. Mauritius welcomes you with warmth that
+                            lasts forever.
+
+                            Here, even the smallest details leave you enchanted—whether it’s the fragrance of frangipani
+                            drifting in the air or fishermen casting nets as dawn lights up the sky.
+
+                            From first hello to final goodbye, Mauritius leaves footprints on your soul that never fade
+                            away.
+                        </p>
+                    </div>
+
+                    <div id="content-beaches" class="content-section">
+                        <h2 class="section-title">Pristine Beaches</h2>
+                        <p>
+                            Mauritius is famous for its postcard-perfect beaches. Walk barefoot on the white sands of
+                            Belle Mare, snorkel in Blue Bay’s marine park, or relax at Flic-en-Flac as the sun paints
+                            the sky pink. The lagoons are calm, shallow, and inviting—perfect for both adventure seekers
+                            and peace lovers.
+
+                            Here, the ocean is your playground and the horizon your canvas. Every wave carries a promise
+                            of bliss.
+
+                            As palm trees sway gently in the breeze, the rhythm of the ocean becomes a melody of
+                            calmness. Golden sunsets wrap the day in magic, inviting you to linger longer.
+
+                            Each shoreline tells a different tale, but they all end the same—with peace, beauty, and
+                            timeless serenity.
+                        </p>
+                    </div>
+
+                    <div id="content-portlouis" class="content-section">
+                        <h2 class="section-title">Port Louis</h2>
+                        <p>
+                            The capital city blends history with hustle. Visit the Central Market for spices and
+                            handicrafts, admire colonial-era architecture, and explore the Blue Penny Museum to discover
+                            the island’s rich heritage. Port Louis is where the island’s heart beats—vibrant, diverse,
+                            and full of life.
+
+                            A city of contrasts, where tradition meets today. Every street tells a story worth hearing.
+
+                            Laughter spills from food stalls, the scent of curries mingles with sea breeze, and music
+                            fills the night air.
+
+                            Port Louis is a canvas of cultures, each brushstroke painted with energy and soul.
+                        </p>
+                    </div>
+
+                    <div id="content-chamarel" class="content-section">
+                        <h2 class="section-title">Chamarel & Seven Colored Earth</h2>
+                        <p>
+                            Chamarel is home to one of Mauritius’s most unique natural wonders—the Seven Colored Earth.
+                            These surreal sand dunes shift in shades of red, violet, and ochre. Nearby, the Chamarel
+                            Waterfall cascades dramatically into lush jungle, making it a must-visit spot for
+                            photographers and nature lovers.
+
+                            Nature paints her masterpiece here. Chamarel leaves you in awe long after you’ve gone.
+
+                            Sunlight dances on the dunes, changing the hues with every glance, while the waterfall
+                            thunders a song of eternity.
+
+                            It is a place where time slows down and nature whispers secrets only your heart can hear.
+                        </p>
+                    </div>
+
+                    <div id="content-black-river" class="content-section">
+                        <h2 class="section-title">Black River Gorges National Park</h2>
+                        <p>
+                            For nature enthusiasts, Black River Gorges is paradise. Trek through dense forests alive
+                            with rare birds like the pink pigeon, discover hidden waterfalls, and enjoy panoramic
+                            viewpoints over valleys and mountains. It’s Mauritius’s wild heart, far removed from the
+                            beach resorts.
+
+                            Adventure breathes in every trail. Here, the wilderness whispers freedom.
+
+                            Mist curls over the mountains at dawn, and each step feels like a passage deeper into
+                            untouched wonder.
+
+                            Black River Gorges is not just a park—it’s the heartbeat of Mauritius’s wild soul.
+                        </p>
+                    </div>
+
+                    <div id="content-le-morne" class="content-section">
+                        <h2 class="section-title">Le Morne Brabant</h2>
+                        <p>
+                            A UNESCO World Heritage Site, Le Morne Brabant is both a natural icon and a symbol of
+                            freedom. Hike its rugged trails for breathtaking views over turquoise lagoons, or simply
+                            admire the mountain rising dramatically from the sea—a reminder of the island’s history and
+                            resilience.
+
+                            Le Morne stands tall in beauty and meaning. It is the soul of Mauritius carved in stone.
+
+                            Standing at its summit, the horizon stretches endlessly, reminding you of courage and hope
+                            that echo through time.
+
+                            Le Morne is more than a mountain—it’s a monument of strength and a sanctuary for the spirit.
+                        </p>
+                    </div>
+
+                    <div id="content-grand-bay" class="content-section">
+                        <h2 class="section-title">Grand Bay</h2>
+                        <p>
+                            The island’s nightlife and leisure hub, Grand Bay offers a mix of chic cafes, beach bars,
+                            and shopping. By day, the bay is a water sports haven—sailing, diving, parasailing—while by
+                            night, it transforms into a vibrant hotspot for music, cocktails, and dancing by the sea.
+
+                            From sunrise sails to midnight beats, Grand Bay never sleeps. It’s the pulse of Mauritius.
+
+                            Neon lights reflect on gentle waves as laughter and rhythm carry into the night sky.
+
+                            Grand Bay is where memories are made, one song, one sunset, one heartbeat at a time.
+                        </p>
+                    </div>
+
+                    <div id="content-culture" class="content-section">
+                        <h2 class="section-title">Cultural Harmony</h2>
+                        <p>
+                            Mauritius is a melting pot of Indian, African, Chinese, and European influences. From
+                            colorful Hindu temples to Chinese pagodas and colonial churches, the island celebrates
+                            diversity. Festivals like Diwali, Cavadee, and Chinese New Year bring streets alive with
+                            light, music, and tradition.
+
+                            Diversity is not just seen, it’s celebrated. Mauritius thrives in unity through culture.
+
+                            Every prayer, every drumbeat, every lantern released into the sky becomes a story of
+                            togetherness.
+
+                            This island proves that differences don’t divide—they create harmony as bright as the
+                            festivals themselves.
+                        </p>
+                    </div>
+
+                    <div id="content-ile-aux-cerfs" class="content-section">
+                        <h2 class="section-title">Île aux Cerfs</h2>
+                        <p>
+                            Just a short boat ride from the east coast, Île aux Cerfs is a dreamy island with golden
+                            beaches, lagoons, and water sports. Relax under palm trees, swim in crystal-clear waters, or
+                            try parasailing for a bird’s-eye view of the coast. It’s Mauritius’s ultimate island escape.
+
+                            A slice of paradise afloat on the sea. Île aux Cerfs is where dreams take shape.
+
+                            Waves sparkle like diamonds under the sun, while soft sands welcome your every step with
+                            warmth.
+
+                            Time slows here, leaving you with nothing but joy, peace, and the beauty of simplicity.
+                        </p>
+                    </div>
+
+                    <div id="content-wildlife" class="content-section">
+                        <h2 class="section-title">Wildlife Encounters</h2>
+                        <p>
+                            From giant tortoises at La Vanille Nature Park to colorful marine life in coral reefs,
+                            Mauritius is full of encounters with the wild. Spot dolphins in Tamarin Bay at sunrise or go
+                            diving with vibrant schools of fish. The island’s biodiversity is a treasure waiting to be
+                            explored.
+
+                            Every creature adds to the island’s magic. Mauritius is alive in every heartbeat of nature.
+
+                            The flap of a bird’s wings or the dance of fish in the reef reminds you of life’s fragile
+                            beauty.
+
+                            Mauritius is a sanctuary where humans and wildlife share a rhythm older than time.
+                        </p>
+                    </div>
+
+                    <div id="content-underwater-waterfall" class="content-section">
+                        <h2 class="section-title">Underwater Waterfall Illusion</h2>
+                        <p>
+                            Off the coast of Le Morne lies one of the most mesmerizing sights on Earth—an optical
+                            illusion where sand and silt create the appearance of an underwater waterfall. Best seen
+                            from a helicopter, this natural wonder is a true signature of Mauritius and leaves travelers
+                            spellbound.
+
+                            A wonder that defies belief, yet exists. The illusion of Mauritius stays real in memory.
+
+                            The sea itself becomes an artist here, painting illusions on a grand scale that the heart
+                            struggles to believe.
+
+                            It is a vision that humbles you, reminding that nature’s magic always exceeds imagination.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PACKAGES -->
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Mauritius Travel Packages</h2>
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+
+
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-6n7d')">6N</button>
+
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-9n10d')">9N</button>
+
+                </div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+                <!-- Mauritian Getaway  -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=669df3b0b3888a1943312089&currency=INR"><img
+                            src="images/mauritius/Mauritian Getaway.png" class="card-img-top"
+                            alt="Mauritian Getaway "></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Mauritian Getaway </h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹48,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=669df3b0b3888a1943312089&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adrenaline Mauritius -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=65bde3a0743d7d226549068d&currency=INR"><img
+                            src="images/mauritius/Adrenaline Mauritius.png" class="card-img-top"
+                            alt="Mauritius  Experience"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Adrenaline Mauritius</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹56,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=65bde3a0743d7d226549068d&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mauritius Honeymoon  -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=65bde048743d7d226549066c&currency=INR"><img
+                            src="images/mauritius/Mauritius Honeymoon.png" class="card-img-top"
+                            alt="Mauritius Honeymoon "></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Mauritius Honeymoon </h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹59,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=65bde048743d7d226549066c&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mystic Mauritius  -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=65bde4b7743d7d22654906a9&currency=INR"><img
+                            src="images/mauritius/Mystic Mauritius.png" class="card-img-top"
+                            alt="Mystic Mauritius "></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Mystic Mauritius </h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹68,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=65bde4b7743d7d22654906a9&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Magical Mauritius with Dubai  -->
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66a0fa96b3888a1943313812&currency=INR"><img
+                            src="images/mauritius/Magical Mauritius with Dubai.png" class="card-img-top"
+                            alt="Magical Mauritius with Dubai "></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Magical Mauritius with Dubai </h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹101,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66a0fa96b3888a1943313812&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>
