@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Australia Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/australia/Amazing Australia.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+                    alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h fw-bold">Australia</h1>
+                    <p class="banner-text text-white">
+                        Australia, Land Down Under, is where golden beaches meet untamed outback and coral reefs shimmer
+                        with life. Imagine sailing past the Sydney Opera House, sipping wine in the Barossa Valley, or
+                        watching Uluru glow under a fiery sunset. From Aboriginal Dreamtime stories to the buzz of
+                        laneway cafés, every moment hums with adventure and spirit. Australia isn’t just a
+                        destination—it’s a boundless journey where nature, culture, and soul unite.
+                    </p>
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=Australia&type=2&category=&month="
+                        class="more">
+                        BOOK NOW
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/australia/Amazing Australia.png" class="d-block w-100 bn-img" height="300px"
+                        alt="Australia" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Australia Travel Guide</h2>
+            <div class="row grey-bg">
+                <!-- Image Slider -->
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-sydney">
+                            <img src="images/australia/Australia city breaks.png" alt="Sydney Opera House" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-melbourne">
+                            <img src="images/australia/Melbourne & Sydney.png" alt="Melbourne Laneways" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-brisbane">
+                            <img src="images/australia/Australia & Hamilton Island.png" alt="Brisbane Riverside" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-perth">
+                            <img src="images/australia//Australia & Fiji Island.png" alt="Perth Beaches" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-adelaide">
+                            <img src="images/australia/Urban Wonders of Australia.png" alt="Adelaide Wine Tours" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-greatbarrierreef">
+                            <img src="images/australia/Australia Luxury Redefined.png" alt="Great Barrier Reef"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-uluru">
+                            <img src="images/australia/Gems Of Australia & New Zealand.png" alt="Uluru Rock" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-md-8 pb-3">
+                    <!-- Sydney -->
+                    <div id="content-sydney" class="content-section active">
+                        <h2 class="section-title">Sydney – Harbor City Magic</h2>
+                        <p>
+                            Sydney dazzles with its iconic Opera House and sparkling harbor, where ferries glide beneath
+                            the Harbour Bridge.<br>
+                            Bondi Beach calls with golden sands, while hidden laneway bars invite night adventures.
+                            <br>Watch the city light up at sunset cruises over the harbor. From coastal walks to rooftop
+                            dining, Sydney is a blend of nature and cosmopolitan charm.
+                        </p>
+                    </div>
+
+                    <!-- Melbourne -->
+                    <div id="content-melbourne" class="content-section">
+                        <h2 class="section-title">Melbourne – Culture & Creativity</h2>
+                        <p>
+                            Melbourne thrives on creativity, where street art colors hidden laneways and cafés hum with
+                            life.<br>
+                            From buzzing markets to eclectic festivals, the city breathes culture at every corner.
+                            <br>Ride a vintage tram through the streets, or explore the Yarra Valley’s wineries nearby.
+                            Melbourne feels like a living canvas of art and flavors.
+                        </p>
+                    </div>
+
+                    <!-- Brisbane -->
+                    <div id="content-brisbane" class="content-section">
+                        <h2 class="section-title">Brisbane – Riverside Charm</h2>
+                        <p>
+                            Brisbane flows with relaxed energy along the river, where South Bank’s parks, beaches, and
+                            eateries create a lively hub.<br>
+                            Fortitude Valley comes alive at night with music and vibrant nightlife.
+                            <br>Kayak the Brisbane River at dusk, or ride the Wheel of Brisbane for sweeping city views.
+                            The city is equal parts laid-back and adventurous.
+                        </p>
+                    </div>
+
+                    <!-- Perth -->
+                    <div id="content-perth" class="content-section">
+                        <h2 class="section-title">Perth – Golden Sunsets</h2>
+                        <p>
+                            Perth sparkles with golden beaches, turquoise waters, and endless sunshine.<br>
+                            Rottnest Island’s friendly quokkas and Fremantle’s buzzing markets add to its charm.
+                            <br>Enjoy breathtaking sunsets over the Indian Ocean, or stroll Kings Park for panoramic
+                            views. Perth is Australia’s western gem of nature and lifestyle.
+                        </p>
+                    </div>
+
+                    <!-- Adelaide -->
+                    <div id="content-adelaide" class="content-section">
+                        <h2 class="section-title">Adelaide – Wine & Festivals</h2>
+                        <p>
+                            Adelaide blends world-class wine, food markets, and lively festivals into one cultural
+                            delight.<br>
+                            Barossa Valley nearby tempts with vineyards and flavors that define South Australia.
+                            <br>Walk the vibrant Central Market or join a street festival under the stars. Adelaide
+                            celebrates life with warmth and energy.
+                        </p>
+                    </div>
+
+                    <!-- Great Barrier Reef -->
+                    <div id="content-greatbarrierreef" class="content-section">
+                        <h2 class="section-title">Great Barrier Reef – Living Wonder</h2>
+                        <p>
+                            Dive into a rainbow of coral and sea life at the world’s largest reef system.<br>
+                            Snorkel beside turtles, manta rays, and tropical fish in crystal-clear waters.
+                            <br>Take a scenic flight for breathtaking reef patterns, or sail to secluded islands. The
+                            Reef is a natural wonder that feels like another world.
+                        </p>
+                    </div>
+
+                    <!-- Uluru -->
+                    <div id="content-uluru" class="content-section">
+                        <h2 class="section-title">Uluru – Sacred Red Heart</h2>
+                        <p>
+                            Uluru rises from the desert like a giant flame, glowing red at sunrise and sunset.<br>
+                            This sacred rock tells ancient stories through Aboriginal culture and rock art.
+                            <br>Walk the base trails, hear Dreamtime legends, or gaze at starlit skies in the outback.
+                            Uluru is Australia’s spiritual heart, timeless and unforgettable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Australia Travel Packages</h2>
+
+            <!-- Filter Buttons -->
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+
+
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-5n6d')">5N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-6n7d')">6N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-7n8d')">7N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-8n9d')">8N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-9n10d')">9N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-10n11d')">10N</button>
+
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-12n13d')">12N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-13n14d')">13N</button>
+
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-15n16d')">15N</button>
+
+                </div>
+            </div>
+
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3">
+
+                <!-- 1. Urban Wonders of Australia -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68889f98405eb70aa7964a3e&currency=INR"><img
+                            src="images/australia/Wonders Of Australia & New Zealand.png" class="card-img-top"
+                            alt="Urban Wonders of Australia"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Urban Wonders of Australia</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹85,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68889f98405eb70aa7964a3e&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Gold Coast & Sydney Express -->
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6889b609405eb70aa7965c26&currency=INR"><img
+                            src="images/australia/Gold Coast & Sydney Express.png" class="card-img-top"
+                            alt="Gold Coast & Sydney Express"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Gold Coast & Sydney Express</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹109,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6889b609405eb70aa7965c26&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. East Coast Trio of Australia -->
+                <div class="filterDiv all pkg-8n9d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68888506405eb70aa79645b9&currency=INR">
+                        <img src="images/australia/East Coast Trio of Australia.png" class="card-img-top"
+                            alt="East Coast Trio of Australia"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">East Coast Trio of Australia</h5>
+                        <p class="card-text text-muted mb-1">8N/9D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹117,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68888506405eb70aa79645b9&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Best of Australia -->
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68876078405eb70aa7962f66&currency=INR">
+                        <img src="images/australia/Best of Australia.png" class="card-img-top"
+                            alt="Best of Australia"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Best of Australia</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹127,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68876078405eb70aa7962f66&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 10. Australia -->
+                <div class="filterDiv all pkg-8n9d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=687b51d0b159dc54ada2e3e2&currency=INR">
+                        <img src="images/australia/Australia.png" class="card-img-top" alt=" Australia"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold"> Australia</h5>
+                        <p class="card-text text-muted mb-1">8N/9D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹129,900/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=687b51d0b159dc54ada2e3e2&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5. Melbourne & Sydney -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=667550848a9f1f193f7486c4&currency=INR">
+                        <img src="images/australia/Melbourne & Sydney.png" class="card-img-top"
+                            alt="Melbourne & Sydney"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Melbourne & Sydney</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹132,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=667550848a9f1f193f7486c4&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Australian Delight - Self Drive -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66d9576fa964291953fe92e6&currency=INR">
+                        <img src="images/australia/Australian Delight - Self Drive.png" class="card-img-top"
+                            alt="Australian Delight - Self Drive"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Australian Delight - Self Drive</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹134,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66d9576fa964291953fe92e6&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Amazing Queensland -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68886333405eb70aa7963e62&currency=INR">
+                        <img src="images/australia/Amazing Queensland.png" class="card-img-top"
+                            alt="Amazing Queensland"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Amazing Queensland</h5>
+                        <p class="card-text text-muted mb-1">8N/9D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹143,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68886333405eb70aa7963e62&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Australia city breaks -->
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68876d2b405eb70aa7963501&currency=INR">
+                        <img src="images/australia/Australia city breaks.png" class="card-img-top"
+                            alt="Australia city breaks"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Australia city breaks</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹145,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68876d2b405eb70aa7963501&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. Amazing Australia -->
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=667559088a9f1f193f748744&currency=INR">
+                        <img src="images/australia/Amazing Australia.png" class="card-img-top"
+                            alt="Amazing Australia"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Amazing Australia</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹149,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=667559088a9f1f193f748744&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 11. Discover Australia - Self Drive -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66daa63ea964291953fed124&currency=INR">
+                        <img src="images/australia/Discover Australia - Self Drive.png" class="card-img-top"
+                            alt="Discover Australia - Self Drive"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Discover Australia - Self Drive</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹173,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66daa63ea964291953fed124&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 12. Australia With Hamilton Island -->
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=667555c68a9f1f193f748707&currency=INR">
+                        <img src="images/australia/Australia & Hamilton Island.png" class="card-img-top"
+                            alt="Australia With Hamilton Island"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Australia With Hamilton Island</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹175,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=667555c68a9f1f193f748707&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 13. Australia & Fiji Island -->
+                <div class="filterDiv all pkg-10n11d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66ac8c1f0881d6193d9bede4&currency=INR">
+                        <img src="images/australia/Australia & Fiji Island.png" class="card-img-top"
+                            alt="Australia & Fiji Island"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Australia & Fiji Island</h5>
+                        <p class="card-text text-muted mb-1">10N/11D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹186,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66ac8c1f0881d6193d9bede4&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 14. Grand Tour of Australia -->
+                <div class="filterDiv all pkg-12n13d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66755dd58a9f1f193f748835&currency=INR">
+                        <img src="images/australia/Grand Tour of Australia.png" class="card-img-top"
+                            alt="Grand Tour of Australia"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Grand Tour of Australia</h5>
+                        <p class="card-text text-muted mb-1">12N/13D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹236,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66755dd58a9f1f193f748835&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 15. Glimpse Of Australia & New Zealand -->
+                <div class="filterDiv all pkg-10n11d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6690bc456f18f67e1241918e&currency=INR">
+                        <img src="images/australia/Glimpse Of Australia & New Zealand.png" class="card-img-top"
+                            alt="Glimpse Of Australia & New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Glimpse Of Australia & New Zealand</h5>
+                        <p class="card-text text-muted mb-1">10N/11D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹246,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6690bc456f18f67e1241918e&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 16. Amazing Australia with Fiji Island -->
+                <div class="filterDiv all pkg-13n14d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66ac8d760881d6193d9bee34&currency=INR">
+                        <img src="images/australia/Amazing Australia with Fiji Island.png" class="card-img-top"
+                            alt="Amazing Australia with Fiji Island"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Amazing Australia with Fiji Island</h5>
+                        <p class="card-text text-muted mb-1">13N/14D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹261,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66ac8d760881d6193d9bee34&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 17. Best of Australia & New Zealand -->
+                <div class="filterDiv all pkg-15n16d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=668fd2176f18f67e12418bd7&currency=INR">
+                        <img src="images/australia/Best of Australia & New Zealand.png" class="card-img-top"
+                            alt="Best of Australia & New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Best of Australia & New Zealand</h5>
+                        <p class="card-text text-muted mb-1">15N/16D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹324,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=668fd2176f18f67e12418bd7&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 18. Wonders Of Australia & New Zealand -->
+                <div class="filterDiv all pkg-15n16d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=668fcef16f18f67e12418b55&currency=INR">
+                        <img src="images/australia/Wonders Of Australia & New Zealand.png" class="card-img-top"
+                            alt="Wonders Of Australia & New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Wonders Of Australia & New Zealand</h5>
+                        <p class="card-text text-muted mb-1">15N/16D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹332,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=668fcef16f18f67e12418b55&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 19. Gems Of Australia & New Zealand -->
+                <div class="filterDiv all pkg-13n14d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6690b9eb6f18f67e12419148&currency=INR">
+                        <img src="images/australia/Gems Of Australia & New Zealand.png" class="card-img-top"
+                            alt="Gems Of Australia & New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Gems Of Australia & New Zealand</h5>
+                        <p class="card-text text-muted mb-1">13N/14D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹342,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6690b9eb6f18f67e12419148&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 20. Australia Self-Drive Experience -->
+                <div class="filterDiv all pkg-13n14d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=67078012ebb31150a585c145&currency=INR">
+                        <img src="images/australia/Australia Self-Drive Experience.png" class="card-img-top"
+                            alt="Australia Self-Drive Experience"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Australia Self-Drive Experience</h5>
+                        <p class="card-text text-muted mb-1">13N/14D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹379,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=67078012ebb31150a585c145&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 21. Australia Luxury Redefined -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=67ffa59028d2341858a932f7&currency=INR">
+                        <img src="images/australia/Australia Luxury Redefined.png" class="card-img-top"
+                            alt="Australia Luxury Redefined"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Australia Luxury Redefined</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹391,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=67ffa59028d2341858a932f7&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>

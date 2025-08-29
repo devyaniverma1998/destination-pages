@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Zealand Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/new-zealand/New Zealand - Memories Unlimited.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+                    alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h fw-bold">New Zealand</h1>
+                    <p class="banner-text text-white">
+                        New Zealand, Land of the Long White Cloud, is where snow-capped peaks rise over crystal lakes
+                        and
+                        rolling hills stretch into infinity. Imagine cruising through Milford Sound, sipping sauvignon
+                        blanc in Marlborough vineyards, or wandering Hobbiton’s storybook landscapes. From Māori haka’s
+                        fierce rhythm to the thrill of adventure sports, every moment brims with wonder and vitality.
+                        New Zealand isn’t just a destination—it’s a breathtaking journey where nature, culture, and soul
+                        embrace.
+                    </p>
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=New+Zealand&type=2&category=&month="
+                        class="more">
+                        BOOK NOW
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/new-zealand/New Zealand - Memories Unlimited.png" class="d-block w-100 bn-img"
+                        height="300px" alt="New Zealand" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">New Zealand Travel Guide</h2>
+            <div class="row grey-bg">
+                <!-- Image Slider -->
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-auckland">
+                            <img src="images/new-zealand/Best of Australia & New Zealand.png" alt="Auckland Skyline"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-rotorua">
+                            <img src="images/new-zealand/Discover New Zealand.png" alt="Rotorua Geysers"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-queenstown">
+                            <img src="images/new-zealand/Must Do New Zealand- Self Drive.png" alt="Queenstown Adventure"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-christchurch">
+                            <img src="images/new-zealand/North South Highlights - Self Drive.png"
+                                alt="Christchurch Garden City" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-wanaka">
+                            <img src="images/new-zealand/Post Card of New Zealand - Self Drive.png" alt="Lake Wanaka"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-milfordsound">
+                            <img src="images/new-zealand/Scenic New Zealand - Self Drive.png" alt="Milford Sound"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-hobbiton">
+                            <img src="images/new-zealand/New Zealand - Memories Unlimited.png" alt="Hobbiton Movie Set"
+                                class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-md-8 pb-3">
+                    <!-- Auckland -->
+                    <div id="content-auckland" class="content-section active">
+                        <h2 class="section-title">Auckland – City of Sails</h2>
+                        <p>
+                            Auckland is a vibrant harbor city where sailboats dot the horizon and volcanic peaks frame
+                            the skyline.<br>
+                            Explore bustling waterfronts, world-class dining, and islands like Waiheke with its
+                            vineyards.<br>
+                            From sky-high views at Sky Tower to beaches just minutes away, Auckland blends urban energy
+                            with natural beauty.
+                        </p>
+                    </div>
+
+                    <!-- Rotorua -->
+                    <div id="content-rotorua" class="content-section">
+                        <h2 class="section-title">Rotorua – Geothermal & Māori Heartland</h2>
+                        <p>
+                            Rotorua bubbles with geysers, mud pools, and steaming hot springs.<br>
+                            Immerse yourself in Māori traditions with cultural performances and hangi feasts.<br>
+                            Adventure seekers can zipline through redwood forests or mountain bike world-class trails.
+                        </p>
+                    </div>
+
+                    <!-- Queenstown -->
+                    <div id="content-queenstown" class="content-section">
+                        <h2 class="section-title">Queenstown – Adventure Capital</h2>
+                        <p>
+                            Queenstown pulses with adrenaline—bungy jumping, jet boating, skiing, and skydiving.<br>
+                            Surrounded by Lake Wakatipu and the Southern Alps, its scenery is as breathtaking as the
+                            thrills.<br>
+                            By night, cozy bars and lakeside dining complete the perfect alpine escape.
+                        </p>
+                    </div>
+
+                    <!-- Christchurch -->
+                    <div id="content-christchurch" class="content-section">
+                        <h2 class="section-title">Christchurch – Garden City</h2>
+                        <p>
+                            Christchurch blooms with botanical gardens, riverside parks, and a mix of old and new
+                            architecture.<br>
+                            Ride a heritage tram, punt along the Avon River, or explore vibrant street art.<br>
+                            The city is a gateway to Canterbury’s vineyards and the Southern Alps.
+                        </p>
+                    </div>
+
+                    <!-- Wanaka -->
+                    <div id="content-wanaka" class="content-section">
+                        <h2 class="section-title">Wanaka – Lakeside Serenity</h2>
+                        <p>
+                            Wanaka enchants with its glassy lake, snow-capped peaks, and the famous lone Wanaka
+                            Tree.<br>
+                            Perfect for hiking, kayaking, or simply relaxing by the water.<br>
+                            In winter, the nearby ski fields turn Wanaka into a snow lover’s paradise.
+                        </p>
+                    </div>
+
+                    <!-- Milford Sound -->
+                    <div id="content-milfordsound" class="content-section">
+                        <h2 class="section-title">Milford Sound – Fjord of Wonders</h2>
+                        <p>
+                            Milford Sound is a mystical fjord where towering cliffs plunge into deep waters.<br>
+                            Sail past waterfalls, spot dolphins and seals, or take a scenic flight for a bird’s-eye
+                            view.<br>
+                            Often called the "eighth wonder of the world," it’s pure natural magic.
+                        </p>
+                    </div>
+
+                    <!-- Hobbiton -->
+                    <div id="content-hobbiton" class="content-section">
+                        <h2 class="section-title">Hobbiton – A Journey into Middle-earth</h2>
+                        <p>
+                            Step into the Shire at Hobbiton, where movie magic comes alive.<br>
+                            Wander through lush green hills, round doors, and the Green Dragon Inn.<br>
+                            For fans and dreamers alike, it’s a fairytale corner of New Zealand.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">New Zealand Travel Packages</h2>
+
+            <!-- Filter Buttons -->
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-4n5d')">4N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-5n6d')">5N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-6n7d')">6N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-7n8d')">7N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-8n9d')">8N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-9n10d')">9N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-10n11d')">10N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-11n12d')">11N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-13n14d')">13N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-14n15d')">14N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-15n16d')">15N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-16n17d')">16N</button>
+                </div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3">
+
+                <!-- 1 -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68875171405eb70aa7962a2c&currency=INR"><img
+                            src="images/new-zealand/North Island with Bay of Island.png" class="card-img-top"
+                            alt="North Island with Bay of Island"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">North Island with Bay of Island</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹79,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68875171405eb70aa7962a2c&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6666dfef98630902874b7ea4&currency=INR">
+                        <img src="images/new-zealand/New Zealand - Thermal Discovery.png" class="card-img-top"
+                            alt="New Zealand - Thermal Discovery"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">New Zealand - Thermal Discovery</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹88,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6666dfef98630902874b7ea4&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66da9e3fa964291953fed009&currency=INR"><img
+                            src="images/new-zealand/North South Highlights - Self Drive.png" class="card-img-top"
+                            alt="North South Highlights - Self Drive"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">North South Highlights - Self Drive</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹121,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66da9e3fa964291953fed009&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6666f47298630902874b8138&currency=INR">
+                        <img src="images/new-zealand/New Zealand Splendid South.png" class="card-img-top"
+                            alt="New Zealand Splendid South"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">New Zealand Splendid South</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹134,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6666f47298630902874b8138&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6666e88898630902874b7f86&currency=INR"><img
+                            src="images/new-zealand/New Zealand - North South Discovery.png" class="card-img-top"
+                            alt="New Zealand - North South Discovery"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">New Zealand - North South Discovery</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹138,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6666e88898630902874b7f86&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="filterDiv all pkg-8n9d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66264147c25e84192e2e750b&currency=INR">
+                        <img src="images/new-zealand/Post Card of New Zealand - Self Drive.png" class="card-img-top"
+                            alt="Post Card of New Zealand - Self Drive"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Post Card of New Zealand - Self Drive</h5>
+                        <p class="card-text text-muted mb-1">8N/9D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹149,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66264147c25e84192e2e750b&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="filterDiv all pkg-11n12d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66daa2e9a964291953fed08c&currency=INR">
+                        <img src="images/new-zealand/Must Do New Zealand- Self Drive.png" class="card-img-top"
+                            alt="Must Do New Zealand- Self Drive"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Must Do New Zealand- Self Drive</h5>
+                        <p class="card-text text-muted mb-1">11N/12D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹153,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66daa2e9a964291953fed08c&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6887436e405eb70aa79623cf&currency=INR">
+                        <img src="images/new-zealand/Scenic New Zealand - Self Drive.png" class="card-img-top"
+                            alt="Scenic New Zealand - Self Drive"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Scenic New Zealand - Self Drive</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹157,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6887436e405eb70aa79623cf&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6666e4e198630902874b7ef5&currency=INR">
+                        <img src="images/new-zealand/New Zealand - Mountains to Sea.png" class="card-img-top"
+                            alt="New Zealand - Mountains to Sea"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">New Zealand - Mountains to Sea</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹192,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6666e4e198630902874b7ef5&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10 -->
+                <div class="filterDiv all pkg-10n11d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66ac85430881d6193d9bed87&currency=INR">
+                        <img src="images/new-zealand/New Zealand (South Island) with Fiji Island.png"
+                            class="card-img-top" alt="New Zealand (South Island) with Fiji Island"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">New Zealand (South Island) with Fiji Island</h5>
+                        <p class="card-text text-muted mb-1">10N/11D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹198,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66ac85430881d6193d9bed87&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11 -->
+                <div class="filterDiv all pkg-10n11d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66ac85430881d6193d9bed87&currency=INR">
+                        <img src="images/new-zealand/New Zealand (North & South Island) with Fiji Island.png"
+                            class="card-img-top" alt="New Zealand (North & South Island) with Fiji Island"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">New Zealand (North & South Island) with Fiji Island</h5>
+                        <p class="card-text text-muted mb-1">10N/11D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹198,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66ac85430881d6193d9bed87&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12 -->
+                <div class="filterDiv all pkg-10n11d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=657c059623f2f516afca4854&currency=INR">
+                        <img src="images/new-zealand/Magnificent New Zealand.png" class="card-img-top"
+                            alt="Magnificent New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Magnificent New Zealand</h5>
+                        <p class="card-text text-muted mb-1">10N/11D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹236,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=657c059623f2f516afca4854&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 13 -->
+                <div class="filterDiv all pkg-10n11d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6690bc456f18f67e1241918e&currency=INR"><img
+                            src="images/new-zealand/Glimpse Of Australia & New Zealand.png" class="card-img-top"
+                            alt="Glimpse Of Australia & New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Glimpse Of Australia & New Zealand</h5>
+                        <p class="card-text text-muted mb-1">10N/11D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹246,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6690bc456f18f67e1241918e&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 14 -->
+                <div class="filterDiv all pkg-15n16d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=668fd2176f18f67e12418bd7&currency=INR">
+                        <img src="images/new-zealand/Best of Australia & New Zealand.png" class="card-img-top"
+                            alt="Best of Australia & New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Best of Australia & New Zealand</h5>
+                        <p class="card-text text-muted mb-1">15N/16D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹324,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=668fd2176f18f67e12418bd7&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 15 -->
+                <div class="filterDiv all pkg-15n16d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=668fcef16f18f67e12418b55&currency=INR"><img
+                            src="images/new-zealand/Wonders Of Australia & New Zealand.png" class="card-img-top"
+                            alt="Wonders Of Australia & New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Wonders Of Australia & New Zealand</h5>
+                        <p class="card-text text-muted mb-1">15N/16D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹332,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=668fcef16f18f67e12418b55&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 16 -->
+                <div class="filterDiv all pkg-13n14d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6690b9eb6f18f67e12419148&currency=INR"><img
+                            src="images/new-zealand/Gems Of Australia & New Zealand.png" class="card-img-top"
+                            alt="Gems Of Australia & New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Gems Of Australia & New Zealand</h5>
+                        <p class="card-text text-muted mb-1">13N/14D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹342,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6690b9eb6f18f67e12419148&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 17 -->
+                <div class="filterDiv all pkg-16n17d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6666e2bd98630902874b7eca&currency=INR"><img
+                            src="images/new-zealand/Discover New Zealand.png" class="card-img-top"
+                            alt="Discover New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Discover New Zealand</h5>
+                        <p class="card-text text-muted mb-1">16N/17D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹374,490/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6666e2bd98630902874b7eca&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 18. New Zealand - Memories Unlimited -->
+                <div class="filterDiv all pkg-13n14d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6800ac5228d2341858a94f7b&currency=INR"><img
+                            src="images/new-zealand/New Zealand - Memories Unlimited.png" class="card-img-top"
+                            alt="New Zealand - Memories Unlimited"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">New Zealand - Memories Unlimited</h5>
+                        <p class="card-text text-muted mb-1">13N/14D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹967,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6800ac5228d2341858a94f7b&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 19. Mesmerizing New Zealand -->
+                <div class="filterDiv all pkg-14n15d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68009a4528d2341858a949e5&currency=INR">
+                        <img src="images/new-zealand/Mesmerizing New Zealand.png" class="card-img-top"
+                            alt="Mesmerizing New Zealand"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Mesmerizing New Zealand</h5>
+                        <p class="card-text text-muted mb-1">14N/15D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹1,114,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68009a4528d2341858a949e5&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>

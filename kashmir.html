@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kashmir Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/kashmir/Kashmir Panorama.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+                    alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h fw-bold">Kashmir</h1>
+                    <p class="banner-text text-white">
+                        Kashmir, Paradise on Earth, is where snow-clad peaks kiss the skies and saffron fields glow in
+                        the breeze. Imagine gliding on a shikara over Dal Lake, sipping kahwa in bustling bazaars, or
+                        walking through meadows painted with wildflowers. From the rhythm of Rouf dance to the fragrance
+                        of pine and apple orchards, every moment whispers peace and wonder. Kashmir isn’t just a
+                        destination—it’s a timeless dream where nature and soul embrace.
+                    </p>
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=Kashmir&type=1&category=&month="
+                        class="more">
+                        BOOK NOW
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/kashmir/Kashmir Panorama.png" class="d-block w-100 bn-img" height="300px"
+                        alt="Kashmir" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Kashmir Travel Guide</h2>
+            <div class="row grey-bg">
+                <!-- Image Slider -->
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-srinagar">
+                            <img src="images/kashmir/Charming Kashmir.png" alt="Srinagar Dal Lake"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-gulmarg">
+                            <img src="images/kashmir/Fascinating Kashmir.png" alt="Gulmarg Meadows"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-pahalgam">
+                            <img src="images/kashmir/Glorious Kashmir.png" alt="Pahalgam Valley" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-sonmarg">
+                            <img src="images/kashmir/Kashmir Panorama.png" alt="Sonmarg Meadows" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-gurez">
+                            <img src="images/kashmir/Splendid Srinagar & Scenic Valleys.png" alt="Gurez Valley"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-kupwara">
+                            <img src="images/kashmir/Srinagar Escape.png" alt="Kupwara Forests" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-leh">
+                            <img src="images/kashmir/Stunning Kashmir.png" alt="Leh Monasteries" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-md-8 pb-3">
+                    <!-- Srinagar -->
+                    <div id="content-srinagar" class="content-section active">
+                        <h2 class="section-title">Welcome to Srinagar</h2>
+                        <p>
+                            Srinagar is Kashmir’s heart, where Dal Lake mirrors the Himalayas and shikaras glide
+                            like painted dreams. Mughal gardens bloom with fountains, while old city lanes echo
+                            with the aroma of kahwa and kebabs.<br>
+                            Watch the sun dip behind Zabarwan Hills, casting gold on houseboats. In every petal of a
+                            tulip or reflection in the lake, Srinagar whispers stories of timeless beauty.
+                        </p>
+                    </div>
+
+                    <!-- Gulmarg -->
+                    <div id="content-gulmarg" class="content-section">
+                        <h2 class="section-title">Gulmarg Meadows & Ski Slopes</h2>
+                        <p>
+                            Gulmarg is where meadows roll into snowy peaks. In summer, daisies and buttercups
+                            spread like carpets, while winter turns it into a skier’s paradise.<br>
+                            Take the Gondola ride high into the clouds. Breathe the alpine air as ponies trot past
+                            pine forests. Every season here feels like a different dream.
+                        </p>
+                    </div>
+
+                    <!-- Pahalgam -->
+                    <div id="content-pahalgam" class="content-section">
+                        <h2 class="section-title">Pahalgam Valley of Shepherds</h2>
+                        <p>
+                            Pahalgam, where rivers sing and valleys open like poetry. Lidder River gushes past
+                            pine forests, while shepherd huts dot the meadows.<br>
+                            Trek into Aru or Betaab Valley, where wildflowers blaze in spring. Camp under starry
+                            skies as the river hums you to sleep. Pahalgam is pure mountain magic.
+                        </p>
+                    </div>
+
+                    <!-- Sonmarg -->
+                    <div id="content-sonmarg" class="content-section">
+                        <h2 class="section-title">Sonmarg’s Golden Meadows</h2>
+                        <p>
+                            Sonmarg, the “Meadow of Gold,” glows with glaciers and untamed rivers. At sunrise, peaks
+                            shine like molten fire.<br>
+                            Ride ponies to Thajiwas Glacier, where waterfalls roar. Hear the Sindh River crash
+                            against boulders as children race along its banks. Adventure and beauty entwine here.
+                        </p>
+                    </div>
+
+                    <!-- Gurez -->
+                    <div id="content-gurez" class="content-section">
+                        <h2 class="section-title">Gurez Valley’s Hidden Charm</h2>
+                        <p>
+                            Untouched and remote, Gurez Valley is a painter’s palette—emerald meadows, stone
+                            villages, and the Kishanganga River weaving through peaks.<br>
+                            Talk to locals whose warmth outshines the cold air. Watch the Habba Khatoon peak glow
+                            pink at dusk. Few places feel this raw, this pure.
+                        </p>
+                    </div>
+
+                    <!-- Kupwara -->
+                    <div id="content-kupwara" class="content-section">
+                        <h2 class="section-title">Kupwara’s Forests & Streams</h2>
+                        <p>
+                            Kupwara hums with birdsong and pine-scented winds. Streams tumble down from glaciers
+                            while meadows roll endlessly green.<br>
+                            Wander quiet trails where herds graze freely. Hear the wind whistle through cedar
+                            forests. Kupwara is Kashmir’s untouched wilderness.
+                        </p>
+                    </div>
+
+                    <!-- Leh Ladakh -->
+                    <div id="content-leh" class="content-section">
+                        <h2 class="section-title">Leh’s Monasteries & Mountains</h2>
+                        <p>
+                            Leh, where monasteries cling to cliffs and prayer flags flutter against stark blue skies.
+                            White stupas dot the valleys, and every turn reveals snow deserts and turquoise lakes.<br>
+                            Hike to Thiksey or Hemis, hear monks chanting at dawn. In Leh, silence itself feels
+                            sacred, echoing between mountains older than time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Kashmir Travel Packages</h2>
+
+            <!-- Filter Buttons -->
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-4n5d')">4N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-5n6d')">5N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-6n7d')">6N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-7n8d')">7N</button>
+                </div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3">
+
+                <!-- 1. Fascinating Kashmir -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66a8927a0881d6193d9bb97c&currency=INR"><img
+                            src="images/kashmir/Fascinating Kashmir.png" class="card-img-top"
+                            alt="Fascinating Kashmir"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Fascinating Kashmir</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹14,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66a8927a0881d6193d9bb97c&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Splendid Srinagar & Scenic Valleys -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=67a0a151bdbc1557dc787a92&currency=INR"><img
+                            src="images/kashmir/Splendid Srinagar & Scenic Valleys.png" class="card-img-top"
+                            alt="Splendid Srinagar & Scenic Valleys"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Splendid Srinagar & Scenic Valleys</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹15,690/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=67a0a151bdbc1557dc787a92&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Srinagar Escape -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=688c4f287765140aa4a12d56&currency=INR">
+                        <img src="images/kashmir/Srinagar Escape.png" class="card-img-top" alt="Srinagar Escape"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Srinagar Escape</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹15,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=688c4f287765140aa4a12d56&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Stunning Kashmir -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=668e81076f18f67e12417a06&currency=INR">
+                        <img src="images/kashmir/Stunning Kashmir.png" class="card-img-top" alt="Stunning Kashmir"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Stunning Kashmir</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹18,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=668e81076f18f67e12417a06&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Charming Kashmir -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66a894960881d6193d9bb9df&currency=INR">
+                        <img src="images/kashmir/Charming Kashmir.png" class="card-img-top" alt="Charming Kashmir"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Charming Kashmir</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹19,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66a894960881d6193d9bb9df&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Kashmir Bliss Trails -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=688b58d1405eb70aa79686bf&currency=INR">
+                        <img src="images/kashmir/Kashmir Bliss Trails.png" class="card-img-top"
+                            alt="Kashmir Bliss Trails"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Kashmir Bliss Trails</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹19,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=688b58d1405eb70aa79686bf&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Glorious Kashmir -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66a897cd0881d6193d9bbb12&currency=INR">
+                        <img src="images/kashmir/Glorious Kashmir.png" class="card-img-top" alt="Glorious Kashmir"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Glorious Kashmir</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹23,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66a897cd0881d6193d9bbb12&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. Kashmir Panorama -->
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=688c5d8f7765140aa4a12f07&currency=INR">
+                        <img src="images/kashmir/Kashmir Panorama.png" class="card-img-top" alt="Kashmir Panorama"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Kashmir Panorama</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹25,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=688c5d8f7765140aa4a12f07&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. Divine Jammu & Kashmir -->
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66a899e00881d6193d9bbccf&currency=INR">
+                        <img src="images/kashmir/Divine Jammu & Enchanting Kashmir.png" class="card-img-top"
+                            alt="Divine Jammu & Enchanting Kashmir"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Divine Jammu & Enchanting Kashmir</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <small class="text-muted">Starting from</small>
+                                <span class="h5 fw-bold text-dark d-block">₹29,990/-</span>
+                            </div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66a899e00881d6193d9bbccf&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>
