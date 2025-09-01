@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andaman Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/andaman/Waves & Wonders of Andaman.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://insurance.zenithholidays.com/_next/static/media/594661181zenith_logo.33d9970b.svg"
+                    alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h fw-bold">Andaman</h1>
+                    <p class="banner-text text-white">
+                        The Andaman Islands are a pristine paradise of sun-kissed beaches, crystal-clear waters, and
+                        lush tropical forests.
+                        Imagine walking on white sands, snorkeling among vibrant coral reefs, and witnessing
+                        breathtaking sunsets over the horizon—this is the charm of Andaman.
+                        From luxury resorts to secluded islands, every moment here is filled with adventure, romance,
+                        and tranquility.
+                        A true retreat where nature’s beauty surrounds you at every step.
+                        Andaman isn’t just a holiday—it’s an unforgettable experience waiting to be discovered.
+                    </p>
+
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=+Andaman&type=1&category=&month="
+                        class="more">
+                        BOOK NOW
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/andaman/Waves & Wonders of Andaman.png" class="d-block w-100 bn-img" height="300px"
+                        alt="Andaman" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Andaman Travel Guide</h2>
+            <div class="row grey-bg">
+                <!-- Image Slider -->
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-andaman">
+                            <img src="images/andaman/Andaman Marine Magic.png" alt="Andaman Overview"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-beaches">
+                            <img src="images/andaman/Andaman Paradise.png" alt="Andaman Beaches" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-portblair">
+                            <img src="images/andaman/Waves & Wonders of Andaman.png" alt="Port Blair"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-islands">
+                            <img src="images/andaman/Andaman Marine Magic.png" alt="Andaman Islands"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-resorts">
+                            <img src="images/andaman/Andaman Marine Magic.png" alt="Andaman Resorts"
+                                class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-md-8 pb-3">
+                    <div id="content-andaman" class="content-section active">
+                        <h2 class="section-title">Welcome to Andaman</h2>
+                        <p>
+                            The Andaman Islands are a tropical haven of turquoise waters, golden beaches, and lush green
+                            forests.
+                            Whether you’re exploring coral reefs, relaxing on secluded shores, or discovering the charm
+                            of island villages, every moment here feels like a treasure.
+                            More than just a beach escape, Andaman is about adventure, tranquility, and timeless natural
+                            beauty.
+                            A destination where the ocean whispers stories, and every sunrise feels magical.
+                            In the Andamans, every experience is a journey into paradise.
+                        </p>
+                    </div>
+
+                    <div id="content-beaches" class="content-section">
+                        <h2 class="section-title">Pristine Beaches</h2>
+                        <p>
+                            Andaman is home to some of India’s most stunning beaches, like Radhanagar Beach and Corbyn’s
+                            Cove.
+                            Soft sands meet crystal-clear waves, while palm trees sway to the rhythm of the sea breeze.
+                            Perfect for sunbathing, swimming, or simply watching the horizon, each beach feels like a
+                            private world.
+                            Here, time slows down as the waves kiss the shore, reminding you that nature’s beauty is
+                            endless.
+                            Every step on these beaches feels like stepping into a dream.
+                        </p>
+                    </div>
+
+                    <div id="content-portblair" class="content-section">
+                        <h2 class="section-title">Port Blair</h2>
+                        <p>
+                            Port Blair, the vibrant capital of Andaman, blends history with natural beauty.
+                            Visit the famous Cellular Jail, take a stroll along the Marina Park, or shop at Aberdeen
+                            Bazaar for local treasures.
+                            The city is a gateway to island adventures and a living reminder of India’s freedom
+                            struggle.
+                            With its museums, cultural sites, and warm island vibes, Port Blair is where stories of the
+                            past meet the spirit of the present.
+                            It’s the heart of Andaman, full of life and charm.
+                        </p>
+                    </div>
+
+                    <div id="content-islands" class="content-section">
+                        <h2 class="section-title">Scenic Islands</h2>
+                        <p>
+                            Beyond the main landmasses, Andaman is dotted with breathtaking islands—Havelock, Neil,
+                            Ross, and more.
+                            Each offers unique beauty, from vibrant coral reefs to dense mangrove forests.
+                            Take a boat ride to explore hidden coves, dive into the underwater world, or simply enjoy
+                            the serenity of island life.
+                            Every island feels like a painting created by nature, filled with colors of the sea, sky,
+                            and land.
+                            In Andaman, every island is a story waiting to unfold.
+                        </p>
+                    </div>
+
+                    <div id="content-resorts" class="content-section">
+                        <h2 class="section-title">Resorts & Stays</h2>
+                        <p>
+                            Stay in beachside resorts, eco-friendly cottages, or luxury retreats that bring you closer
+                            to nature.
+                            Wake up to the sound of waves, enjoy candlelight dinners by the shore, and watch sunsets
+                            that paint the sky.
+                            From budget-friendly stays to high-end luxury, Andaman’s hospitality ensures comfort with a
+                            touch of island magic.
+                            Every stay here is not just accommodation—it’s an experience that lingers in your heart.
+                            In Andaman, where you stay is as beautiful as where you go.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PACKAGES -->
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Andaman Travel Packages</h2>
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-4n5d')">4N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-5n6d')">5N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-6n7d')">6N</button>
+                </div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+                <!-- First Package: Andaman Serenity -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6690d75e6f18f67e1241938f&currency=INR"><img
+                            src="images/andaman/Andaman Serenity.png" class="card-img-top" alt="Andaman Serenity"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Andaman Serenity</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹17,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6690d75e6f18f67e1241938f&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Package: Waves & Wonders of Andaman -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=686ba884aa69db0a5f01aadf&currency=INR"><img
+                            src="images/andaman/Waves & Wonders of Andaman.png" class="card-img-top"
+                            alt="Waves & Wonders of Andaman"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Waves & Wonders of Andaman</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹21,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=686ba884aa69db0a5f01aadf&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Package: Andaman Paradise -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=688afd7a405eb70aa7967724&currency=INR"><img
+                            src="images/andaman/Andaman Paradise.png" class="card-img-top" alt="Andaman Paradise"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Andaman Paradise</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹22,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=688afd7a405eb70aa7967724&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=688b0bab405eb70aa7967a89&currency=INR"><img
+                            src="images/andaman/Andaman Marine Magic.png" class="card-img-top"
+                            alt="Andaman Marine Magic"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Andaman Marine Magic</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹25,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=688b0bab405eb70aa7967a89&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=680b5f0ade1bec1674af727f&currency=INR"><img
+                            src="images/andaman/Magical Andaman Ex-Kolkata.png" class="card-img-top"
+                            alt="Magical Andaman Ex-Kolkata"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Magical Andaman Ex-Kolkata</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹59,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=680b5f0ade1bec1674af727f&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>
