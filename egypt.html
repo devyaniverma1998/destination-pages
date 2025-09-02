@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egypt Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/egypt/Classical Egypt.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/zenith_logo1.png" alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h fw-bold">Egypt</h1>
+                    <p class="banner-text text-white">
+                        Egypt is a timeless land of ancient wonders, golden deserts, and the majestic Nile River.
+                        Imagine standing before the Great Pyramids of Giza, sailing on a traditional felucca,
+                        and watching the sun set over the vast Sahara.
+                        From the treasures of Luxor and Aswan to the vibrant bazaars of Cairo,
+                        every moment in Egypt is filled with history, mystery, and beauty.
+                        A true journey where ancient civilizations come alive at every step.
+                        Egypt isn’t just a holiday—it’s an unforgettable experience waiting to be discovered.
+                    </p>
+
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=Egypt&type=2&category=&month="
+                        class="more">
+                        BOOK NOW
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/egypt/Classical Egypt.png" class="d-block w-100 bn-img" height="300px"
+                        alt="Egypt" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Egypt Travel Guide</h2>
+            <div class="row grey-bg">
+                <!-- Image Slider -->
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-overview">
+                            <img src="images/egypt/Best of Egypt.png" alt="Egypt Overview" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-cairo">
+                            <img src="images/egypt/Classical Egypt.png" alt="Cairo and Pyramids" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-luxor">
+                            <img src="images/egypt/Grand Egypt.png" alt="Luxor and Aswan" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-nile">
+                            <img src="images/egypt/Nile Valley Red Sea.png" alt="Nile Cruise" class="d-block w-100">
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-md-8 pb-3">
+                    <div id="content-overview" class="content-section active">
+                        <h2 class="section-title">Welcome to Egypt</h2>
+                        <p>
+                            Egypt is a land of timeless wonders, where ancient history meets vibrant modern life.
+                            From the iconic pyramids of Giza to the serene Nile River, every journey here feels
+                            extraordinary.
+                            Walk through grand temples, explore bustling souks, or marvel at golden deserts.
+                            Egypt isn’t just a destination—it’s a journey into the heart of civilization.
+                        </p>
+                    </div>
+
+                    <div id="content-cairo" class="content-section">
+                        <h2 class="section-title">Cairo & The Pyramids</h2>
+                        <p>
+                            Cairo, Egypt’s capital, is a city of contrasts—modern energy alongside ancient marvels.
+                            Visit the Great Pyramids of Giza and the Sphinx, explore the Egyptian Museum’s treasures,
+                            and wander through the lively Khan El Khalili bazaar.
+                            Cairo is the gateway to Egypt’s past and present.
+                        </p>
+                    </div>
+
+                    <div id="content-luxor" class="content-section">
+                        <h2 class="section-title">Luxor & Aswan</h2>
+                        <p>
+                            Luxor and Aswan are open-air museums filled with temples, tombs, and history.
+                            Discover the Valley of the Kings, Karnak Temple, and the majestic Abu Simbel.
+                            These cities are where pharaohs’ legacies still shine, offering an unforgettable glimpse
+                            into ancient Egypt.
+                        </p>
+                    </div>
+
+                    <div id="content-nile" class="content-section">
+                        <h2 class="section-title">The Nile Experience</h2>
+                        <p>
+                            A Nile cruise is the perfect way to see Egypt’s beauty.
+                            Sail past palm-lined banks, ancient ruins, and timeless villages.
+                            The Nile is Egypt’s lifeline, connecting travelers with the heart of its culture
+                            and history for thousands of years.
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- PACKAGES -->
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Egypt Travel Packages</h2>
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-7n8d')">7N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-9n10d')">9N</button>
+                </div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+                <!-- First Package: Best of Egypt -->
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66348ca3759ff8192d44f2f7&currency=INR"><img
+                            src="images/egypt/Grand Egypt.png" class="card-img-top" alt="Grand Egypt"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Grand Egypt</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹119,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66348ca3759ff8192d44f2f7&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Package: Grand Egypt -->
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6684e305a7c3bc1942ebac99&currency=INR"><img
+                            src="images/egypt/Best of Egypt.png" class="card-img-top" alt="Best of Egypt"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Best of Egypt</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹126,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6684e305a7c3bc1942ebac99&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Package: Classical Egypt -->
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6684e764a7c3bc1942ebad95&currency=INR"><img
+                            src="images/egypt/Classical Egypt.png" class="card-img-top" alt="Classical Egypt"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Classical Egypt</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹124,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6684e764a7c3bc1942ebad95&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6684e986a7c3bc1942ebae62&currency=INR"><img
+                            src="images/egypt/Nile Valley Red Sea.png" class="card-img-top"
+                            alt="Nile Valley Red Sea"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Nile Valley Red Sea</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹147,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6684e986a7c3bc1942ebae62&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>
