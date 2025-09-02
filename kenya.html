@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kenya Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/kenya/Grand Kenya.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/zenith_logo1.png" alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h fw-bold">Kenya</h1>
+                    <p class="banner-text text-white">
+                        Kenya is a land of breathtaking landscapes, diverse wildlife, and vibrant culture.
+                        Imagine standing on the golden savannah as elephants roam freely, witnessing the Great Migration
+                        across the Maasai Mara,
+                        or watching the sun set behind Mount Kilimanjaro.
+                        From the pristine beaches of Mombasa to the thrilling safari parks, every moment here is filled
+                        with adventure, wonder, and discovery.
+
+                    </p>
+
+
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=Kenya&type=2&category=&month="
+                        class="more">
+                        BOOK NOW
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/kenya/Grand Kenya.png" class="d-block w-100 bn-img" height="300px" alt="kenya" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Kenya Travel Guide</h2>
+            <div class="row grey-bg">
+                <!-- Image Slider -->
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-kenya">
+                            <img src="images/kenya/Kenyan Safari Ex-Kolkata.png" alt="Kenya Safari"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-beaches">
+                            <img src="images/kenya/Magic of Kenya with Tanzania.png" alt="Kenya Beaches"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-nairobi">
+                            <img src="images/kenya/The Unlimited Kenya Experience.png" alt="Nairobi City"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-nationalparks">
+                            <img src="images/kenya/Kenyan Adventure.png" alt="National Parks" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-stays">
+                            <img src="images/kenya/Tales of Kenya.png" alt="Kenya Lodges & Stays" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-md-8 pb-3">
+                    <div id="content-kenya" class="content-section active">
+                        <h2 class="section-title">Welcome to Kenya</h2>
+                        <p>
+                            Kenya is a land of endless adventure—golden savannahs, iconic wildlife, and breathtaking
+                            landscapes.
+                            From the Great Migration in Maasai Mara to the snow-capped peaks of Mount Kenya, every
+                            moment feels extraordinary.
+                            Whether you’re on safari, exploring vibrant cities, or relaxing by the Indian Ocean, Kenya
+                            is a journey of discovery, culture, and natural wonder.
+                            It’s more than a destination—it’s an experience that stays with you forever.
+                        </p>
+                    </div>
+
+                    <div id="content-beaches" class="content-section">
+                        <h2 class="section-title">Pristine Beaches</h2>
+                        <p>
+                            Along Kenya’s coastline, places like Diani Beach and Malindi offer soft white sands and
+                            turquoise waters.
+                            Palm trees sway as the ocean breeze carries the scent of the sea, perfect for relaxation and
+                            water sports.
+                            Whether it’s snorkeling, diving, or simply soaking up the sun, Kenya’s beaches are a
+                            tropical escape.
+                            Here, the Indian Ocean meets African charm, creating the perfect paradise.
+                        </p>
+                    </div>
+
+                    <div id="content-nairobi" class="content-section">
+                        <h2 class="section-title">Nairobi City</h2>
+                        <p>
+                            Nairobi, the bustling capital, is where modern life meets wild adventure.
+                            Visit Nairobi National Park, just minutes from the city center, or explore the Karen Blixen
+                            Museum.
+                            The city offers vibrant markets, cultural experiences, and nightlife, making it a dynamic
+                            gateway to Kenya’s wonders.
+                            Nairobi is the heartbeat of Kenya, full of energy, stories, and unforgettable encounters.
+                        </p>
+                    </div>
+
+                    <div id="content-nationalparks" class="content-section">
+                        <h2 class="section-title">National Parks & Safaris</h2>
+                        <p>
+                            Kenya is home to world-famous parks—Maasai Mara, Amboseli, Tsavo, and Samburu.
+                            Here, lions, elephants, giraffes, and rhinos roam free against stunning backdrops of plains
+                            and mountains.
+                            Game drives, hot-air balloon rides, and guided tours let you experience the raw beauty of
+                            the wild.
+                            Every safari is a story of nature, adventure, and timeless African spirit.
+                        </p>
+                    </div>
+
+                    <div id="content-stays" class="content-section">
+                        <h2 class="section-title">Lodges & Stays</h2>
+                        <p>
+                            From luxury safari lodges to beachfront resorts, Kenya offers stays that immerse you in
+                            nature and comfort.
+                            Wake up to elephants grazing nearby, enjoy sundowners overlooking the savannah, or relax by
+                            the ocean at a seaside villa.
+                            Whether budget-friendly or world-class luxury, Kenya’s hospitality ensures every stay is
+                            unforgettable.
+                            Here, your accommodation becomes part of the adventure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- PACKAGES -->
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Kenya Travel Packages</h2>
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-4n5d')">4N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-5n6d')">5N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-6n7d')">6N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-7n8d')">7N</button>
+                  
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-9n10d')">9N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-10n11d')">10N</button>
+                   
+
+                </div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+
+
+                <!-- Second Package: Wonderful Kenya -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=65ae6891743d7d226548ba83&currency=INR"><img
+                            src="images/kenya/Wonderful Kenya.png" class="card-img-top" alt="Wonderful Kenya"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Wonderful Kenya</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹169,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=65ae6891743d7d226548ba83&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Package: Classic Kenya -->
+
+
+
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=686f66e8b159dc54ada21ec3&currency=INR"><img
+                            src="images/kenya/Tales of Kenya.png" class="card-img-top" alt="Tales of Kenya"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Tales of Kenya</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹218,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=686f66e8b159dc54ada21ec3&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=680f431309ec5d090c6cf640&currency=INR"><img
+                            src="images/kenya/Kenyan Safari Ex-Kolkata.png" class="card-img-top"
+                            alt="Kenyan Safari Ex-Kolkata"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Kenyan Safari Ex-Kolkata</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹232,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=680f431309ec5d090c6cf640&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=65b0abfb743d7d226548c5cd&currency=INR"><img
+                            src="images/kenya/Grand Kenya.png" class="card-img-top" alt="Grand Kenya"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Grand Kenya</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹232,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=65b0abfb743d7d226548c5cd&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- First Package: Kenyan Adventure -->
+                <div class="filterDiv all pkg-5n6d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=65b0a702743d7d226548c53e&currency=INR"><img
+                            src="images/kenya/Kenyan Adventure.png" class="card-img-top" alt="Kenyan Adventure"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Kenyan Adventure</h5>
+                        <p class="card-text text-muted mb-1">5N/6D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹239,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=65b0a702743d7d226548c53e&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=686f56fcb159dc54ada21ab7&currency=INR"><img
+                            src="images/kenya/Magic of Kenya with Tanzania.png" class="card-img-top"
+                            alt="Magic of Kenya with Tanzania"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Magic of Kenya with Tanzania</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹290,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=686f56fcb159dc54ada21ab7&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=65b0ae93743d7d226548c5e8&currency=INR"><img
+                            src="images/kenya/Classic Kenya.png" class="card-img-top" alt="Classic Kenya"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Classic Kenya</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹291,490/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=65b0ae93743d7d226548c5e8&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-9n10d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=68036e5628d2341858a9763f&currency=INR"><img
+                            src="images/kenya/The Unlimited Kenya Experience.png" class="card-img-top"
+                            alt="The Unlimited Kenya Experience"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">The Unlimited Kenya Experience</h5>
+                        <p class="card-text text-muted mb-1">9N/10D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹399,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=68036e5628d2341858a9763f&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=66ac76e50881d6193d9bebc6&currency=INR"><img
+                            src="images/kenya/Kenya Tanzania Safari.png" class="card-img-top"
+                            alt="Kenya Tanzania Safari"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Kenya Tanzania Safari</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹594,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=66ac76e50881d6193d9bebc6&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-10n11d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=680365bf28d2341858a9745a&currency=INR"><img
+                            src="images/kenya/The Luxury Kenya Safari Experience.png" class="card-img-top"
+                            alt="Kenya Tanzania Safari"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Kenya Tanzania Safari</h5>
+                        <p class="card-text text-muted mb-1">10N/11D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹1,484,590/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=680365bf28d2341858a9745a&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>
