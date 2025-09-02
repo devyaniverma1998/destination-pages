@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajasthan Destination</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/rajasthan/Glory Of Rajasthan.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-h {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .banner-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffc107;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .more:hover {
+            background-color: #e0a800;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+        }
+
+        .bn-img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/zenith_logo1.png" alt="Zenith Holidays Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/flights">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/hotels">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Holidays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zenithholidays.com/activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forex.zenithholidays.com/">Forex</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://visa.zenithholidays.com/">Visa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://insurance.zenithholidays.com/">Insurance</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Senior Citizen</a></li>
+                            <li><a class="dropdown-item" href="#">Vouchers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid py-5 banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-white banner-h fw-bold">Rajasthan</h1>
+                    <p class="banner-text text-white">
+                        The Andaman Islands are a pristine paradise of sun-kissed beaches, crystal-clear waters, and
+                        lush tropical forests.
+                        Imagine walking on white sands, snorkeling among vibrant coral reefs, and witnessing
+                        breathtaking sunsets over the horizon—this is the charm of Andaman.
+                        From luxury resorts to secluded islands, every moment here is filled with adventure, romance,
+                        and tranquility.
+                        A true retreat where nature’s beauty surrounds you at every step.
+                        Andaman isn’t just a holiday—it’s an unforgettable experience waiting to be discovered.
+                    </p>
+
+                    <a href="https://www.zenithholidays.com/holiday/search?searchby=+Andaman&type=1&category=&month="
+                        class="more">
+                        BOOK NOW
+                    </a>
+                </div>
+                <div class="col-md-6 mt-5 banner-img">
+                    <img src="images/rajasthan/Glory Of Rajasthan.png" class="d-block w-100 bn-img" height="300px"
+                        alt="Rajasthan" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="destination-welcome" class="py-3">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Rajasthan Travel Guide</h2>
+            <div class="row grey-bg">
+                <!-- Image Slider -->
+                <div id="imageSlider" class="col-md-4 carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-content="content-overview">
+                            <img src="images/rajasthan/Desert Delight.png" alt="Rajasthan Overview"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-desert">
+                            <img src="images/rajasthan/Jaipur & Ranthambore.png" alt="Rajasthan Desert"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-jaipur">
+                            <img src="images/rajasthan/The Lake City Udaipur.png" alt="Jaipur" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-forts">
+                            <img src="images/rajasthan/Udaipur & Mount Abu.png" alt="Rajasthan Forts"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-content="content-stays">
+                            <img src="images/rajasthan/Majestic Jaipur Experience.png" alt="Rajasthan Stays"
+                                class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#imageSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-md-8 pb-3">
+                    <div id="content-overview" class="content-section active">
+                        <h2 class="section-title">Welcome to Rajasthan</h2>
+                        <p>
+                            Rajasthan, the Land of Kings, is a realm of golden deserts, majestic forts, and royal
+                            palaces.
+                            From the vibrant bazaars of Jaipur to the shimmering lakes of Udaipur, every corner of this
+                            state
+                            tells a story of valor and grandeur.
+                            Here, tradition and modernity walk hand in hand—camels stride past heritage havelis while
+                            festivals
+                            light up the desert skies.
+                            A journey through Rajasthan is more than travel—it’s an experience of timeless culture,
+                            colors,
+                            and hospitality.
+                        </p>
+                    </div>
+
+                    <div id="content-desert" class="content-section">
+                        <h2 class="section-title">The Thar Desert</h2>
+                        <p>
+                            The Thar Desert, stretching across western Rajasthan, is a land of golden sands and endless
+                            horizons.
+                            Experience a camel safari through the dunes of Jaisalmer, camp under starlit skies, and
+                            witness folk
+                            performances around desert bonfires.
+                            Every sunset here paints the desert in shades of gold and crimson, leaving memories etched
+                            forever.
+                            The desert is not just barren land—it’s alive with culture, music, and traditions.
+                        </p>
+                    </div>
+
+                    <div id="content-jaipur" class="content-section">
+                        <h2 class="section-title">Jaipur – The Pink City</h2>
+                        <p>
+                            Jaipur, Rajasthan’s capital, is a kaleidoscope of royal heritage and bustling markets.
+                            Visit the iconic Hawa Mahal, explore the grand Amer Fort, or shop for handicrafts in Johari
+                            Bazaar.
+                            With its mix of regal architecture and lively culture, Jaipur is a city where history
+                            breathes in
+                            every street.
+                            Known as the Gateway to Rajasthan, Jaipur is the perfect start to your royal journey.
+                        </p>
+                    </div>
+
+                    <div id="content-forts" class="content-section">
+                        <h2 class="section-title">Forts & Palaces</h2>
+                        <p>
+                            Rajasthan is home to some of India’s most magnificent forts and palaces—Mehrangarh in
+                            Jodhpur,
+                            City Palace in Udaipur, Junagarh in Bikaner, and more.
+                            These architectural wonders stand as living symbols of valor and artistry, offering
+                            panoramic views
+                            of cities and landscapes.
+                            Walking through their courtyards and halls feels like stepping into a bygone era of kings
+                            and queens.
+                            Each fort tells a tale of glory and heritage.
+                        </p>
+                    </div>
+
+                    <div id="content-stays" class="content-section">
+                        <h2 class="section-title">Royal Stays</h2>
+                        <p>
+                            Rajasthan offers stays as grand as its history—luxury heritage hotels, palace resorts, and
+                            desert camps.
+                            Wake up in a palace room once lived in by royalty, enjoy candlelit dinners by a lake, or
+                            relax in
+                            eco-friendly desert retreats.
+                            Whether budget or luxury, the hospitality here carries the warmth of Rajasthani culture.
+                            Every stay is not just accommodation—it’s a royal experience of its own.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- PACKAGES -->
+    <section id="destination" class="py-4">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold">Rajasthan Travel Packages</h2>
+            <div class="filter-bar bg-white shadow-sm rounded-pill p-3 mb-4">
+                <div id="myBtnContainer" class="d-flex flex-wrap justify-content-center gap-2">
+                    <button class="btn filter-btn active rounded-pill px-3 py-2" onclick="filterSelection('all')">All
+                        Packages</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-4n5d')">4N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-5n6d')">5N</button>
+                    <button class="btn filter-btn rounded-pill px-3 py-2"
+                        onclick="filterSelection('pkg-6n7d')">6N</button>
+                </div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-3 filterable">
+                <!-- First Package: The Lake City Udaipur -->
+                <div class="filterDiv all pkg-3n4d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6690d0f66f18f67e124192e2&currency=INR"><img
+                            src="images/rajasthan/The Lake City Udaipur.png" class="card-img-top"
+                            alt="The Lake City Udaipur"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">The Lake City Udaipur</h5>
+                        <p class="card-text text-muted mb-1">3N/4D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹11,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6690d0f66f18f67e124192e2&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Package: Majestic Jaipur Experience -->
+                <div class="filterDiv all pkg-3n4d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=689c7e2050fc54127f7350ab&currency=INR"><img
+                            src="images/rajasthan/Majestic Jaipur Experience.png" class="card-img-top"
+                            alt="Majestic Jaipur Experience"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Majestic Jaipur Experience</h5>
+                        <p class="card-text text-muted mb-1">3N/4D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹12,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=689c7e2050fc54127f7350ab&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+  <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=668fc8946f18f67e12418aeb&currency=INR"><img
+                            src="images/rajasthan/Udaipur & Mount Abu.png" class="card-img-top" alt="Udaipur & Mount Abu"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Udaipur & Mount Abu</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹17,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=668fc8946f18f67e12418aeb&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third Package: Desert Delight -->
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=668fc1486f18f67e1241899a&currency=INR"><img
+                            src="images/rajasthan/Desert Delight.png" class="card-img-top" alt="Desert Delight"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Desert Delight</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹18,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=668fc1486f18f67e1241899a&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filterDiv all pkg-4n5d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6613c86c9f903d192ec7b8b1&currency=INR"><img
+                            src="images/rajasthan/Jaipur & Ranthambore.png" class="card-img-top"
+                            alt="Jaipur & Ranthambore"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Jaipur & Ranthambore</h5>
+                        <p class="card-text text-muted mb-1">4N/5D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹20,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6613c86c9f903d192ec7b8b1&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=6613d4479f903d192ec7b972&currency=INR"><img
+                            src="images/rajasthan/Glory Of Rajasthan.png" class="card-img-top"
+                            alt="Glory Of Rajasthan"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Glory Of Rajasthan</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹25,990/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=6613d4479f903d192ec7b972&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+               
+
+                
+                <div class="filterDiv all pkg-6n7d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=67ea7b034e25cc16a386b6fb&currency=INR"><img
+                            src="images/rajasthan/Rajasthan Royal Affair.png" class="card-img-top"
+                            alt="Rajasthan Royal Affair"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Rajasthan Royal Affair</h5>
+                        <p class="card-text text-muted mb-1">6N/7D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹35,090/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=67ea7b034e25cc16a386b6fb&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="filterDiv all pkg-7n8d card shadow-sm border-0 h-100">
+                    <a href="https://www.zenithholidays.com/holiday/details?id=687e1c8a5445260aaf2819f4&currency=INR"><img
+                            src="images/rajasthan/Rajasthan.png" class="card-img-top" alt="Rajasthan"></a>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Rajasthan</h5>
+                        <p class="card-text text-muted mb-1">7N/8D</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><small class="text-muted">Starting from</small><span
+                                    class="h5 fw-bold text-dark d-block">₹40,000/-</span></div>
+                            <a href="https://www.zenithholidays.com/holiday/details?id=687e1c8a5445260aaf2819f4&currency=INR"
+                                class="btn btn-warning rounded-pill px-4">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container text-center">
+            <span>Copyright © 2025 Zenithholidays.com All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // Synchronize carousel with content
+        $('#imageSlider').on('slid.bs.carousel', function () {
+            var contentId = $('.carousel-item.active').data('content');
+            $('.content-section').removeClass('active');
+            $('#' + contentId).addClass('active');
+        });
+
+        // Filter packages
+        function filterSelection(category) {
+            $('.filterDiv').each(function () {
+                $(this).removeClass('d-none');
+                if (category === 'all' || $(this).hasClass(category)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+            $('.filter-btn').removeClass('active');
+            $(`button[onclick="filterSelection('${category}')"]`).addClass('active');
+        }
+
+        // Initialize first filter
+        filterSelection('all');
+    </script>
+</body>
+
+</html>
